@@ -10,5 +10,6 @@ import Foundation
 print("Hello, World!")
 
 let easy = Easy()
+let twoSum = TwoSum()
 
 
