@@ -34,19 +34,19 @@ class ReverseList: NSObject {
         let node3 = ListNode(3, node2)
         let node4 = ListNode(2, node3)
         let node5 = ListNode(1, node4)
-        let reversed = reverseList1(node5)
+        let reversed = reverseList(node5)
         print("\(reversed)")
     }
     
     // 迭代法
     func reverseList(_ head: ListNode?) -> ListNode? {
-        var pre = ListNode()
+        var pre: ListNode? = nil
         var cur = head
-        
+
         while cur != nil {
             let next = cur?.next
             cur?.next = pre
-            pre = cur!
+            pre = cur
             cur = next
         }
         
@@ -60,6 +60,21 @@ class ReverseList: NSObject {
         head?.next?.next = head
         head?.next = nil
         return p
+    }
+    
+    // 头插法
+    func reverseList2(_ head: ListNode?) -> ListNode? {
+        if head == nil || head?.next == nil { return head }
+        let temp = ListNode()
+        var head = head
+        var next: ListNode? = nil
+        while head != nil {
+            next = head?.next
+            head!.next = temp.next
+            temp.next = head
+            head = next
+        }
+        return temp.next
     }
  
 }
