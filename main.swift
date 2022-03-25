@@ -16,5 +16,6 @@ let reverseList = ReverseList()
 let mergeTwoLists = MergeTwoLists()
 let removeNthFromEnd = RemoveNthFromEnd()
 let middleNode = MiddleNode()
+let isPalindrome = IsPalindrome()
 
 

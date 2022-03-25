@@ -11,12 +11,6 @@ class Example1: NSObject {
     override init() {
         super.init()
         
-        let bool = twoSum0(nums: [1,3,4,5,8,9], target: 10)
-        print(bool)
-        
-        let nums = twoSum1(nums: [1,3,4,5,8,9], target: 10)
-        print(nums)
-        
         print("\(reversalString(inputString: "hello world"))")
         print("\(reversalStringWithWords(inputString: "hello world"))")
         print("\(reverseWords(s: "hello world"))")
@@ -31,41 +25,6 @@ class Example1: NSObject {
         var array = [1, 1, 2]
         print("removeDuplicates: \(removeDuplicates(&array))")
         print("array:\(array)")
-    }
-    
-    // 给出一个整型数组和一个目标值,判断数组中是否有两个数之和等于目标值
-    func twoSum0(nums:[Int], target: Int) -> Bool {
-        // 初始化集合
-        var set = Set<Int>()
-        // 遍历整形数组
-        for num in nums {
-            // 判断集合中是否包含目标值减去当前值的结果
-            if set.contains(target - num) {
-                return true
-            }
-            // 不包含，将当前值存入集合，用于下次判断
-            set.insert(num)
-        }
-        
-        //都不包含，返回false
-        return false
-    }
-    
-    
-    func twoSum1(nums:[Int], target: Int) -> [Int] {
-        //初始化字典
-        var dict:[Int:Int] = [:]
-        for (index, num) in nums.enumerated() {
-            //从dict字典中取出之前保存的索引，判断索引是否存在
-            if let lastIndex = dict[target - num]  {
-                //返回之前存的索引和当前的索引
-                return [lastIndex, index];
-            } else {
-                //保存当前索引，用于后续判断
-                dict[num] = index
-            }
-        }
-        fatalError("No valid output !")
     }
     
     // 无重复最长子串

@@ -92,26 +92,4 @@ class Example2: NSObject {
         
         return false
     }
-    
-    /*
-    func reverseList(headNode: ListNode) -> ListNode {
-        
-        guard let headNext = headNode.next else { return headNode }
-        var head = headNode
-        var p:ListNode = head, q:ListNode = headNext, r:ListNode
-        head.next = nil
-        while q != nil {
-            r = q.next
-            q.next = p
-            p = q
-            q = r
-        }
-        head = p
-        
-        return head
-    }
-    
-*/
-    
-
 }
