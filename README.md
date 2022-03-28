@@ -24,3 +24,5 @@
  
  ### 9.回文数 给你一个整数 x ，如果 x 是一个回文整数，返回 true ；否则，返回 false 。
  https://leetcode-cn.com/problems/palindrome-number/
+ 
+ ### 7.整数反转 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果 https://leetcode-cn.com/problems/reverse-integer/
