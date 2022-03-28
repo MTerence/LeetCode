@@ -26,3 +26,6 @@
  https://leetcode-cn.com/problems/palindrome-number/
  
  ### 7.整数反转 给你一个 32 位的有符号整数 x ，返回将 x 中的数字部分反转后的结果 https://leetcode-cn.com/problems/reverse-integer/
+ 
+ ###  20. 有效的括号,给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串s ，判断字符串是否有效。
+ https://leetcode-cn.com/problems/valid-parentheses/

@@ -18,5 +18,6 @@ let removeNthFromEnd = RemoveNthFromEnd()
 let middleNode = MiddleNode()
 let isPalindrome = IsPalindrome()
 let reversed = ReverseInt()
+let isValid = IsValid()
 
 
