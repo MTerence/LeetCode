@@ -20,5 +20,6 @@ let isPalindrome = IsPalindrome()
 let reversed = ReverseInt()
 let isValid = IsValid()
 let longestCommonPrefix = LongestCommonPrefix()
+let removeDuplicates = RemoveDuplicates()
 
 

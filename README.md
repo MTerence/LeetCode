@@ -31,3 +31,5 @@
  https://leetcode-cn.com/problems/valid-parentheses/
  
  ###  14. 最长公共前缀 编写一个函数来查找字符串数组中的最长公共前缀。https://leetcode-cn.com/problems/longest-common-prefix/
+ 
+ ###  26. 删除有序数组中的重复项 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
