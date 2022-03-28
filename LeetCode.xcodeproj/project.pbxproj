@@ -15,6 +15,9 @@
 		AB1A7C9727E9B6B700301468 /* LengthOfLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7C9627E9B6B700301468 /* LengthOfLongestSubstring.swift */; };
 		AB1A7CA227EB377800301468 /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7CA127EB377800301468 /* ReverseList.swift */; };
 		AB320F5727F15921000746A7 /* IsValid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB320F5627F15921000746A7 /* IsValid.swift */; };
+		AB320F5A27F16A30000746A7 /* LongestCommonPrefix.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB320F5927F16A30000746A7 /* LongestCommonPrefix.swift */; };
+		AB320F5D27F16C45000746A7 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB320F5C27F16C45000746A7 /* String+Extension.swift */; };
+		AB320F5F27F16C8C000746A7 /* Dictionary+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB320F5E27F16C8C000746A7 /* Dictionary+Extension.swift */; };
 		AB6E177827EC52F200D42FDC /* HasCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6E177727EC52F200D42FDC /* HasCycle.swift */; };
 		AB6E177A27EC554E00D42FDC /* MergeTwoLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6E177927EC554E00D42FDC /* MergeTwoLists.swift */; };
 		AB6E177C27EC5BA100D42FDC /* RemoveNthFromEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6E177B27EC5BA100D42FDC /* RemoveNthFromEnd.swift */; };
@@ -48,6 +51,9 @@
 		AB1A7C9627E9B6B700301468 /* LengthOfLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLongestSubstring.swift; sourceTree = "<group>"; };
 		AB1A7CA127EB377800301468 /* ReverseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 		AB320F5627F15921000746A7 /* IsValid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsValid.swift; sourceTree = "<group>"; };
+		AB320F5927F16A30000746A7 /* LongestCommonPrefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefix.swift; sourceTree = "<group>"; };
+		AB320F5C27F16C45000746A7 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		AB320F5E27F16C8C000746A7 /* Dictionary+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extension.swift"; sourceTree = "<group>"; };
 		AB6E177727EC52F200D42FDC /* HasCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasCycle.swift; sourceTree = "<group>"; };
 		AB6E177927EC554E00D42FDC /* MergeTwoLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoLists.swift; sourceTree = "<group>"; };
 		AB6E177B27EC5BA100D42FDC /* RemoveNthFromEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveNthFromEnd.swift; sourceTree = "<group>"; };
@@ -80,6 +86,7 @@
 				AB6E17C327EDBD0600D42FDC /* IsPalindrome.swift */,
 				AB6E17C527EDC45D00D42FDC /* ReverseInt.swift */,
 				AB320F5627F15921000746A7 /* IsValid.swift */,
+				AB320F5927F16A30000746A7 /* LongestCommonPrefix.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -118,6 +125,15 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		AB320F5B27F16C2C000746A7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB320F5C27F16C45000746A7 /* String+Extension.swift */,
+				AB320F5E27F16C8C000746A7 /* Dictionary+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		ABFF213F271439BB000AF0E7 = {
 			isa = PBXGroup;
 			children = (
@@ -139,6 +155,7 @@
 		ABFF214A271439BB000AF0E7 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				AB320F5B27F16C2C000746A7 /* Extension */,
 				AB320F5827F160AA000746A7 /* Stack */,
 				AB1A7C9827E9B99E00301468 /* ListNode */,
 				AB1A7C8D27E9865000301468 /* Easy */,
@@ -212,6 +229,7 @@
 				AB6E17C427EDBD0600D42FDC /* IsPalindrome.swift in Sources */,
 				AB6E177827EC52F200D42FDC /* HasCycle.swift in Sources */,
 				AB6E17C627EDC45D00D42FDC /* ReverseInt.swift in Sources */,
+				AB320F5D27F16C45000746A7 /* String+Extension.swift in Sources */,
 				AB6E177C27EC5BA100D42FDC /* RemoveNthFromEnd.swift in Sources */,
 				AB320F5727F15921000746A7 /* IsValid.swift in Sources */,
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
@@ -222,10 +240,12 @@
 				AB1A7C9227E9B56D00301468 /* Example2.swift in Sources */,
 				ABFF214C271439BB000AF0E7 /* main.swift in Sources */,
 				AB1A7C8C27E985F800301468 /* AddTwoNumbers.swift in Sources */,
+				AB320F5A27F16A30000746A7 /* LongestCommonPrefix.swift in Sources */,
 				ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */,
 				ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */,
 				AB1A7CA227EB377800301468 /* ReverseList.swift in Sources */,
 				AB1A7C9727E9B6B700301468 /* LengthOfLongestSubstring.swift in Sources */,
+				AB320F5F27F16C8C000746A7 /* Dictionary+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

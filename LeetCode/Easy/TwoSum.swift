@@ -78,8 +78,4 @@ class TwoSum: NSObject {
     }
 }
 
-extension Dictionary where Value: Equatable {
-    func getKey(forValue val: Value) -> Key? {
-        return first(where: {$0.value == val})?.key
-    }
-}
+

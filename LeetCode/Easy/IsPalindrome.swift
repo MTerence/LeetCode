@@ -86,10 +86,3 @@ class IsPalindrome: NSObject {
     }
 
 }
-
-extension String {
-    func char(at position: Int) -> Character {
-        let index = self.index(self.startIndex, offsetBy: position)
-        return self[index]
-    }
-}

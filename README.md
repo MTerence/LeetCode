@@ -29,3 +29,5 @@
  
  ###  20. 有效的括号,给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串s ，判断字符串是否有效。
  https://leetcode-cn.com/problems/valid-parentheses/
+ 
+ ###  14. 最长公共前缀 编写一个函数来查找字符串数组中的最长公共前缀。https://leetcode-cn.com/problems/longest-common-prefix/
