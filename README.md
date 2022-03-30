@@ -39,3 +39,6 @@
  
  ###  58. 最后一个单词的长度 给你一个字符串 s，由若干单词组成，单词前后用一些空格字符隔开。返回字符串中 最后一个 单词的长度。
  https://leetcode-cn.com/problems/length-of-last-word/
+
+###  66. 加一 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
+ https://leetcode-cn.com/problems/plus-one/

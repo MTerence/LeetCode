@@ -23,5 +23,6 @@ let longestCommonPrefix = LongestCommonPrefix()
 let removeDuplicates = RemoveDuplicates()
 let removeElement = RemoveElement()
 let lengthOfLastWord = LengthOfLastWord()
+let plusOne = PlusOne()
 
 
