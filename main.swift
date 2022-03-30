@@ -21,5 +21,6 @@ let reversed = ReverseInt()
 let isValid = IsValid()
 let longestCommonPrefix = LongestCommonPrefix()
 let removeDuplicates = RemoveDuplicates()
+let removeElement = RemoveElement()
 
 
