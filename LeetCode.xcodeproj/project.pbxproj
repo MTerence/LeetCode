@@ -31,6 +31,7 @@
 		AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B327F4669D00029F24 /* AddBinary.swift */; };
 		AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B527F46AF400029F24 /* MySqrt.swift */; };
 		AB8023B827F47EBD00029F24 /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B727F47EBD00029F24 /* ClimbStairs.swift */; };
+		AB8023BA27F483D700029F24 /* DeleteDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B927F483D700029F24 /* DeleteDuplicates.swift */; };
 		ABFF214C271439BB000AF0E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF214B271439BB000AF0E7 /* main.swift */; };
 		ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF215227144FF4000AF0E7 /* ListNode.swift */; };
 		ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF2158271452B8000AF0E7 /* Easy.swift */; };
@@ -74,6 +75,7 @@
 		AB8023B327F4669D00029F24 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		AB8023B527F46AF400029F24 /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		AB8023B727F47EBD00029F24 /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
+		AB8023B927F483D700029F24 /* DeleteDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteDuplicates.swift; sourceTree = "<group>"; };
 		ABFF2148271439BB000AF0E7 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF214B271439BB000AF0E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABFF215227144FF4000AF0E7 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				AB8023B327F4669D00029F24 /* AddBinary.swift */,
 				AB8023B527F46AF400029F24 /* MySqrt.swift */,
 				AB8023B727F47EBD00029F24 /* ClimbStairs.swift */,
+				AB8023B927F483D700029F24 /* DeleteDuplicates.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */,
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
 				AB1A7C9527E9B57800301468 /* List.swift in Sources */,
+				AB8023BA27F483D700029F24 /* DeleteDuplicates.swift in Sources */,
 				AB6E177E27EC6C5300D42FDC /* MiddleNode.swift in Sources */,
 				AB6E177A27EC554E00D42FDC /* MergeTwoLists.swift in Sources */,
 				AB1A7C9327E9B56D00301468 /* Example1.swift in Sources */,

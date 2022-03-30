@@ -51,3 +51,6 @@
  
  ###  70. 爬楼梯 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
  https://leetcode-cn.com/problems/climbing-stairs/
+ 
+### 83. 删除排序链表中的重复元素,给定一个已排序的链表的头 head ， 删除所有重复的元素，使每个元素只出现一次 。返回 已排序的链表 。
+ https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/

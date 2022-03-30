@@ -26,5 +26,6 @@ let lengthOfLastWord = LengthOfLastWord()
 let plusOne = PlusOne()
 let addBinary = AddBinary()
 let mySqrt = MySqrt()
+let deleteDuplicates = DeleteDuplicates()
 
 
