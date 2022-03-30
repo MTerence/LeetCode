@@ -30,6 +30,7 @@
 		AB8023B227F45FDD00029F24 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B127F45FDD00029F24 /* PlusOne.swift */; };
 		AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B327F4669D00029F24 /* AddBinary.swift */; };
 		AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B527F46AF400029F24 /* MySqrt.swift */; };
+		AB8023B827F47EBD00029F24 /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B727F47EBD00029F24 /* ClimbStairs.swift */; };
 		ABFF214C271439BB000AF0E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF214B271439BB000AF0E7 /* main.swift */; };
 		ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF215227144FF4000AF0E7 /* ListNode.swift */; };
 		ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF2158271452B8000AF0E7 /* Easy.swift */; };
@@ -72,6 +73,7 @@
 		AB8023B127F45FDD00029F24 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		AB8023B327F4669D00029F24 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
 		AB8023B527F46AF400029F24 /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
+		AB8023B727F47EBD00029F24 /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 		ABFF2148271439BB000AF0E7 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF214B271439BB000AF0E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABFF215227144FF4000AF0E7 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				AB8023B127F45FDD00029F24 /* PlusOne.swift */,
 				AB8023B327F4669D00029F24 /* AddBinary.swift */,
 				AB8023B527F46AF400029F24 /* MySqrt.swift */,
+				AB8023B727F47EBD00029F24 /* ClimbStairs.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */,
 				AB1A7CA227EB377800301468 /* ReverseList.swift in Sources */,
 				AB1A7C9727E9B6B700301468 /* LengthOfLongestSubstring.swift in Sources */,
+				AB8023B827F47EBD00029F24 /* ClimbStairs.swift in Sources */,
 				AB8023B027F45BD800029F24 /* LengthOfLastWord.swift in Sources */,
 				AB320F6127F1A3AB000746A7 /* RemoveDuplicates.swift in Sources */,
 				AB8023B227F45FDD00029F24 /* PlusOne.swift in Sources */,

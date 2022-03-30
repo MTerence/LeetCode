@@ -48,3 +48,6 @@
  
  ###  69. x 的平方根 给你一个非负整数 x ，计算并返回 x 的 算术平方根 。
  https://leetcode-cn.com/problems/sqrtx/
+ 
+ ###  70. 爬楼梯 假设你正在爬楼梯。需要 n 阶你才能到达楼顶。每次你可以爬 1 或 2 个台阶。你有多少种不同的方法可以爬到楼顶呢？
+ https://leetcode-cn.com/problems/climbing-stairs/
