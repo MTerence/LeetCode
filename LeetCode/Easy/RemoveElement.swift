@@ -42,6 +42,7 @@ class RemoveElement: NSObject {
         super.init()
         var input = [3,2,2,3]
         let removeElement = removeElement(&input, 3)
+
         print("\(removeElement)")
     }
     

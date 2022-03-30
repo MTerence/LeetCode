@@ -22,5 +22,6 @@ let isValid = IsValid()
 let longestCommonPrefix = LongestCommonPrefix()
 let removeDuplicates = RemoveDuplicates()
 let removeElement = RemoveElement()
+let lengthOfLastWord = LengthOfLastWord()
 
 
