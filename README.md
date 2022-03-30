@@ -42,3 +42,9 @@
 
 ###  66. 加一 给定一个由 整数 组成的 非空 数组所表示的非负整数，在该数的基础上加一。
  https://leetcode-cn.com/problems/plus-one/
+ 
+ ###  67. 二进制求和 给你两个二进制字符串，返回它们的和（用二进制表示）。 输入为 非空 字符串且只包含数字 1 和 0。
+ https://leetcode-cn.com/problems/add-binary/
+ 
+ ###  69. x 的平方根 给你一个非负整数 x ，计算并返回 x 的 算术平方根 。
+ https://leetcode-cn.com/problems/sqrtx/

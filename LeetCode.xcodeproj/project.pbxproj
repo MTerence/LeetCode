@@ -28,6 +28,8 @@
 		AB8023AE27F453AE00029F24 /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023AD27F453AE00029F24 /* RemoveElement.swift */; };
 		AB8023B027F45BD800029F24 /* LengthOfLastWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023AF27F45BD800029F24 /* LengthOfLastWord.swift */; };
 		AB8023B227F45FDD00029F24 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B127F45FDD00029F24 /* PlusOne.swift */; };
+		AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B327F4669D00029F24 /* AddBinary.swift */; };
+		AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8023B527F46AF400029F24 /* MySqrt.swift */; };
 		ABFF214C271439BB000AF0E7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF214B271439BB000AF0E7 /* main.swift */; };
 		ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF215227144FF4000AF0E7 /* ListNode.swift */; };
 		ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFF2158271452B8000AF0E7 /* Easy.swift */; };
@@ -68,6 +70,8 @@
 		AB8023AD27F453AE00029F24 /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
 		AB8023AF27F45BD800029F24 /* LengthOfLastWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWord.swift; sourceTree = "<group>"; };
 		AB8023B127F45FDD00029F24 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
+		AB8023B327F4669D00029F24 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		AB8023B527F46AF400029F24 /* MySqrt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySqrt.swift; sourceTree = "<group>"; };
 		ABFF2148271439BB000AF0E7 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABFF214B271439BB000AF0E7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		ABFF215227144FF4000AF0E7 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 				AB8023AD27F453AE00029F24 /* RemoveElement.swift */,
 				AB8023AF27F45BD800029F24 /* LengthOfLastWord.swift */,
 				AB8023B127F45FDD00029F24 /* PlusOne.swift */,
+				AB8023B327F4669D00029F24 /* AddBinary.swift */,
+				AB8023B527F46AF400029F24 /* MySqrt.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -245,6 +251,7 @@
 				AB320F5D27F16C45000746A7 /* String+Extension.swift in Sources */,
 				AB6E177C27EC5BA100D42FDC /* RemoveNthFromEnd.swift in Sources */,
 				AB320F5727F15921000746A7 /* IsValid.swift in Sources */,
+				AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */,
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
 				AB1A7C9527E9B57800301468 /* List.swift in Sources */,
 				AB6E177E27EC6C5300D42FDC /* MiddleNode.swift in Sources */,
@@ -256,6 +263,7 @@
 				AB320F5A27F16A30000746A7 /* LongestCommonPrefix.swift in Sources */,
 				ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */,
 				ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */,
+				AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */,
 				AB1A7CA227EB377800301468 /* ReverseList.swift in Sources */,
 				AB1A7C9727E9B6B700301468 /* LengthOfLongestSubstring.swift in Sources */,
 				AB8023B027F45BD800029F24 /* LengthOfLastWord.swift in Sources */,
