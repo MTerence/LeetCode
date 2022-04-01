@@ -59,3 +59,15 @@
  给你两个按 非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。
  请你 合并 nums2 到 nums1 中，使合并后的数组同样按 非递减顺序 排列。
  https://leetcode-cn.com/problems/merge-sorted-array/
+ 
+ ###  144. 二叉树的前序遍历
+ 给你二叉树的根节点 root ，返回它节点值的 前序 遍历。
+ https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+ 
+ ###  94. 二叉树的中序遍历
+ 给定一个二叉树的根节点 root ，返回 它的 中序 遍历 。
+ https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+ 
+ ###  145. 二叉树的后序遍历
+ 给你一棵二叉树的根节点 root ，返回其节点值的 后序遍历 。
+ https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
