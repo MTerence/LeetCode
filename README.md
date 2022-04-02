@@ -80,3 +80,7 @@
   ### 101. 对称二叉树
  给你一个二叉树的根节点 root ， 检查它是否轴对称。
  https://leetcode-cn.com/problems/symmetric-tree/
+ 
+ ### 104. 二叉树的最大深度
+ 给定一个二叉树，找出其最大深度。
+ https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
