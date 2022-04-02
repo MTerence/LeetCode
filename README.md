@@ -93,3 +93,8 @@
  ### 217. 存在重复元素
  给你一个整数数组 nums 。如果任一值在数组中出现 至少两次 ，返回 true ；如果数组中每个元素互不相同，返回 false 。
  https://leetcode-cn.com/problems/contains-duplicate/
+ 
+ ### 225. 用队列实现栈
+ 请你仅使用两个队列实现一个后入先出（LIFO）的栈，并支持普通栈的全部四种操作（push、top、pop 和 empty）。
+ 实现 MyStack 类：
+ https://leetcode-cn.com/problems/implement-stack-using-queues/
