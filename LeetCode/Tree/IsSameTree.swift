@@ -30,7 +30,7 @@ class IsSameTree: NSObject {
     // 如果两个二叉树都不为空，但根节点的值不相同，则二叉树不同
     // 如果两棵二叉树的左子树和右子树相同，则是相同的二叉树
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        if p == nil & q == nil {
+        if p == nil && q == nil {
             return true
         } else if p == nil || q == nil {
             return false
