@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0733D527F9A8DE00DBCB27 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */; };
 		AB18FB6527F8676E00C507CD /* MyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18FB6427F8676E00C507CD /* MyStack.swift */; };
 		AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7C8827E980E600301468 /* TwoSum.swift */; };
 		AB1A7C8C27E985F800301468 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7C8B27E985F800301468 /* AddTwoNumbers.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		AB18FB6427F8676E00C507CD /* MyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStack.swift; sourceTree = "<group>"; };
 		AB1A7C8827E980E600301468 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		AB1A7C8A27E985C700301468 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -210,6 +212,7 @@
 				ABB4CF7027F83BC6005B80E9 /* IsSameTree.swift */,
 				ABB4CF7227F83D6A005B80E9 /* IsSymmetric.swift */,
 				ABC638CC27F84AE700439050 /* MaxDepth.swift */,
+				AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -337,6 +340,7 @@
 				ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */,
 				AB8023BC27F48ED300029F24 /* Merge.swift in Sources */,
 				AB8023B627F46AF400029F24 /* MySqrt.swift in Sources */,
+				AB0733D527F9A8DE00DBCB27 /* LowestCommonAncestor.swift in Sources */,
 				AB4516ED27F8587500E84715 /* DeleteNode.swift in Sources */,
 				ABB4CF7127F83BC6005B80E9 /* IsSameTree.swift in Sources */,
 				AB1A7CA227EB377800301468 /* ReverseList.swift in Sources */,
