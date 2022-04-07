@@ -10,6 +10,7 @@
 		AB0733D527F9A8DE00DBCB27 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */; };
 		AB0733D727F9AAFC00DBCB27 /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D627F9AAFC00DBCB27 /* InvertTree.swift */; };
 		AB0733D927F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D827F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift */; };
+		AB0733DB27F9CEB900DBCB27 /* IsAnagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733DA27F9CEB900DBCB27 /* IsAnagram.swift */; };
 		AB18FB6527F8676E00C507CD /* MyStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB18FB6427F8676E00C507CD /* MyStack.swift */; };
 		AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7C8827E980E600301468 /* TwoSum.swift */; };
 		AB1A7C8C27E985F800301468 /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1A7C8B27E985F800301468 /* AddTwoNumbers.swift */; };
@@ -70,6 +71,7 @@
 		AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		AB0733D627F9AAFC00DBCB27 /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		AB0733D827F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorSearchTree.swift; sourceTree = "<group>"; };
+		AB0733DA27F9CEB900DBCB27 /* IsAnagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsAnagram.swift; sourceTree = "<group>"; };
 		AB18FB6427F8676E00C507CD /* MyStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyStack.swift; sourceTree = "<group>"; };
 		AB1A7C8827E980E600301468 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		AB1A7C8A27E985C700301468 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
@@ -147,6 +149,7 @@
 				AB8023B927F483D700029F24 /* DeleteDuplicates.swift */,
 				AB8023BB27F48ED300029F24 /* Merge.swift */,
 				AB4516EE27F85A0C00E84715 /* ContainsDuplicate.swift */,
+				AB0733DA27F9CEB900DBCB27 /* IsAnagram.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				AB6E17C627EDC45D00D42FDC /* ReverseInt.swift in Sources */,
 				AB320F5D27F16C45000746A7 /* String+Extension.swift in Sources */,
 				AB6E177C27EC5BA100D42FDC /* RemoveNthFromEnd.swift in Sources */,
+				AB0733DB27F9CEB900DBCB27 /* IsAnagram.swift in Sources */,
 				AB6C157A27F73B9E0075D733 /* PostorderTraversal.swift in Sources */,
 				AB320F5727F15921000746A7 /* IsValid.swift in Sources */,
 				AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */,
