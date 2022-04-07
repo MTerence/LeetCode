@@ -123,3 +123,7 @@
 给你一个字符串 s，找到 s 中最长的回文子串。
 https://leetcode-cn.com/problems/longest-palindromic-substring/
 
+###  8. 字符串转换整数 (atoi)
+ 请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
+ https://leetcode-cn.com/problems/string-to-integer-atoi/
+
