@@ -111,4 +111,9 @@
  ### 226. 翻转二叉树 给你一棵二叉树的根节点 root ，翻转这棵二叉树，并返回其根节点。
  https://leetcode-cn.com/problems/invert-binary-tree/
  
+ ### 242. 有效的字母异位词
+ 给定两个字符串 s 和 t ，编写一个函数来判断 t 是否是 s 的字母异位词。
+ 注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
+ https://leetcode-cn.com/problems/valid-anagram/
+ 
 
