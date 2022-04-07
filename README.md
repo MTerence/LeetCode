@@ -1,5 +1,6 @@
 # LeetCode
 
+## Easy
 ### TwoSum.swift [两数之和] 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。https://leetcode-cn.com/problems/two-sum/
 
 ###  AddTwoNumbers.swift [两数相加]
@@ -116,4 +117,9 @@
  注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
  https://leetcode-cn.com/problems/valid-anagram/
  
+ ## Medium
+ 
+ ### 5. 最长回文子串
+给你一个字符串 s，找到 s 中最长的回文子串。
+https://leetcode-cn.com/problems/longest-palindromic-substring/
 
