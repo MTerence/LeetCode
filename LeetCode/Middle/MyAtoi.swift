@@ -39,32 +39,32 @@ class MyAtoi: NSObject {
     override init() {
         super.init()
         
-        let result = myAtoi("   -42")
+        let result = myAtoi("-9223372036854775809")
         print("\(result)")
     }
     
     func myAtoi(_ s: String) -> Int {
         var isNegative: Bool? = nil
         var array: [Character] = []
-        for (idx, c) in s.enumerated() {
-            if c.isWhitespace == false && array.count == 0 && isNegative == nil {
+        for c in s {
+            if c.isWhitespace && array.count == 0 && isNegative == nil {
                 continue
             }
             
             if c.isNumber {
                 array.append(c)
             } else if c == "-" {
-                if array.count > 0 || isNegative == nil {
-                    break
-                } else {
-                    isNegative = false
-                    continue
-                }
-            } else if c == "+" {
-                if array.count > 0 || isNegative == nil {
+                if array.count > 0 || isNegative != nil {
                     break
                 } else {
                     isNegative = true
+                    continue
+                }
+            } else if c == "+" {
+                if array.count > 0 || isNegative != nil {
+                    break
+                } else {
+                    isNegative = false
                     continue
                 }
             } else {
@@ -72,60 +72,20 @@ class MyAtoi: NSObject {
             }
         }
         
-        
-        let resultStr = (isNegative?? true ? "-" : "") + String(array)
-        var resultInt = Int(resultStr) ?? 0
-        if resultInt < Int32.min {
-            resultInt = Int(Int32.min)
+        guard array.count > 0 else { return 0 }
+        let resultStr = String(array)
+        var resultInt = Int(resultStr) ?? Int.max
+        if let isNegative = isNegative,
+           isNegative == true {
+            resultInt = -resultInt
+            if resultInt < Int32.min {
+                resultInt = Int(Int32.min)
+            }
         }
-        
-        if resultInt > Int.max {
+
+        if resultInt > Int32.max {
             resultInt = Int(Int32.max)
         }
         return resultInt
     }
-    
-    /*
-    func myAtoi(_ s: String) -> Int {
-        var characters: [Character] = []
-        var isNegative: Bool?
-        for c in s {
-            if c.isWhitespace && characters.count == 0 && isNegative == nil {
-                continue
-            }
-            if c.isNumber {
-                characters.append(c)
-            } else if c == "-" {
-                if characters.count > 0 || isNegative != nil {
-                    break
-                } else {
-                    isNegative = true
-                }
-            } else if c == "+" {
-                if characters.count > 0 || isNegative != nil {
-                    break
-                } else {
-                    isNegative = false
-                }
-            } else {
-                break
-            }
-        }
-        if characters.count == 0 {
-            return 0
-        }
-        var num = Int(String(characters)) ?? Int.max
-        if let neg = isNegative,
-           neg == true {
-            num = -num
-            if num < Int32.min {
-                return Int(Int32.min)
-            }
-        }
-        if num > Int32.max {
-            return Int(Int32.max)
-        }
-        return num
-    }
-*/
 }
