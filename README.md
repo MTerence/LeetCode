@@ -123,7 +123,11 @@
 给你一个字符串 s，找到 s 中最长的回文子串。
 https://leetcode-cn.com/problems/longest-palindromic-substring/
 
-#####  8. 字符串转换整数 (atoi)
+##### 8. 字符串转换整数 (atoi)
  请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
  https://leetcode-cn.com/problems/string-to-integer-atoi/
+ 
+ ##### 15. 三数之和
+ 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
+ https://leetcode-cn.com/problems/3sum/
 
