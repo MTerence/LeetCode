@@ -192,6 +192,11 @@ https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
 
 ### 剑指 Offer 06. 从尾到头打印链表 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
  https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
+
+###  剑指 Offer 07. 重建二叉树
+ 输入某二叉树的前序遍历和中序遍历的结果，请构建该二叉树并返回其根节点。
+ 假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
+ https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
  
 # 面试
 ### [抖音]给你一个数组，返回最长有序子数组
