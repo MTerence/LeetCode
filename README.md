@@ -189,6 +189,9 @@ https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
   https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
   
 ### 剑指 Offer 05. 替换空格 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+### 剑指 Offer 06. 从尾到头打印链表 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+ https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
  
 # 面试
 ### [抖音]给你一个数组，返回最长有序子数组
