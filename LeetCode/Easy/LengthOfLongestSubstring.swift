@@ -24,6 +24,8 @@
  输出: 3
  解释: 因为无重复字符的最长子串是 "wke"，所以其长度为 3。
       请注意，你的答案必须是 子串 的长度，"pwke" 是一个子序列，不是子串。
+ https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+ https://leetcode.cn/problems/zui-chang-bu-han-zhong-fu-zi-fu-de-zi-zi-fu-chuan-lcof/
  */
 
 import Cocoa
@@ -73,3 +75,24 @@ class LengthOfLongestSubstring: NSObject {
         return maxStr.count
     }
 }
+
+/*
+ https://blog.csdn.net/eereere/article/details/80327857
+public class FindMaxArr {
+    public static void main(String[] args) {
+        int [] arr= {9,10,21,1,2,3,4,5,6,7,3,4,6};
+        Arrays.sort(arr);
+        System.out.println(arr);
+        List list=new ArrayList<>();
+        for(int i=0;i temp=new ArrayList<>();
+            int j=i+1;
+            int val=arr[i];//定义参考的比较值，这个值一直往前移动
+        temp.add(arr[i]); for(;jval+1) {
+            break;//已经不连续了，退出
+            
+        } }//end
+    if(temp.size()>list.size()) {
+        list.clear(); list.addAll(temp);
+    }
+}//end //输出有序系列 for(Integer i:list) { System.out.println(i); } }}
+ */

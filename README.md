@@ -123,7 +123,72 @@
 给你一个字符串 s，找到 s 中最长的回文子串。
 https://leetcode-cn.com/problems/longest-palindromic-substring/
 
-#####  8. 字符串转换整数 (atoi)
+##### 8. 字符串转换整数 (atoi)
  请你来实现一个 myAtoi(string s) 函数，使其能将字符串转换成一个 32 位有符号整数（类似 C/C++ 中的 atoi 函数）。
  https://leetcode-cn.com/problems/string-to-integer-atoi/
+ 
+ ##### 15. 三数之和
+ 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
+ https://leetcode-cn.com/problems/3sum/
 
+ 
+ ### 1556. 千位分隔数
+ 给你一个整数 n，请你每隔三位添加点（即 "." 符号）作为千位分隔符，并将结果以字符串格式返回。
+ https://leetcode.cn/problems/thousand-separator/
+
+###  142. 环形链表 II
+给定一个链表的头节点  head ，返回链表开始入环的第一个节点。 如果链表无环，则返回 null。
+https://leetcode.cn/problems/linked-list-cycle-ii/
+
+### 209. 长度最小的子数组
+ 给定一个含有 n 个正整数的数组和一个正整数 target 。
+ 找出该数组中满足其和 ≥ target 的长度最小的 连续子数组 [numsl, numsl+1, ..., numsr-1, numsr] ，并返回其长度。如果不存在符合条件的子数组，返回 0 。
+https://leetcode.cn/problems/minimum-size-subarray-sum/
+ 
+## 剑指 Offer
+
+### 剑指 Offer 64. 求1+2+…+n
+https://leetcode.cn/problems/qiu-12n-lcof/
+
+###  剑指 Offer 03. 数组中重复的数字找出数组中重复的数字。
+https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
+ 
+### 232. 用栈实现队列
+请你仅使用两个栈实现先入先出队列。队列应当支持一般队列支持的所有操作（push、pop、peek、empty）：
+https://leetcode.cn/problems/implement-queue-using-stacks/
+
+### 剑指 Offer 10- II. 青蛙跳台阶问题
+一只青蛙一次可以跳上1级台阶，也可以跳上2级台阶。求该青蛙跳上一个 n 级的台阶总共有多少种跳法。
+答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
+https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
+
+###  剑指 Offer 11. 旋转数组的最小数字
+ 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
+ https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
+ 
+### 剑指 Offer 26. 树的子结构
+ 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
+ B是A的子结构， 即 A中有出现和B相同的结构和节点值。
+ https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
+ 
+ ###  剑指 Offer 27. 二叉树的镜像
+ 请完成一个函数，输入一个二叉树，该函数输出它的镜像。
+ 注意：本题与主站 226 题相同：https://leetcode-cn.com/problems/invert-binary-tree/
+ https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/
+ 
+ ### 剑指 Offer 32 - I. 从上到下打印二叉树
+ 从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
+ https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
+ 
+### 剑指 Offer 52. 两个链表的第一个公共节点
+ 输入两个链表，找出它们的第一个公共节点。
+ https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
+ 
+ ### 剑指 Offer 04. 二维数组中的查找
+ 在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
+  https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
+  
+### 剑指 Offer 05. 替换空格 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+ 
+# 面试
+### [抖音]给你一个数组，返回最长有序子数组
