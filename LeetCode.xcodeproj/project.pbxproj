@@ -54,6 +54,7 @@
 		ABADA3B2283D05F7001EE5F8 /* ReversePrint.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3B1283D05F7001EE5F8 /* ReversePrint.swift */; };
 		ABADA3B4283D06F1001EE5F8 /* BuildTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3B3283D06F1001EE5F8 /* BuildTree.swift */; };
 		ABADA3B8283D2A46001EE5F8 /* ValidateStackSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3B7283D2A46001EE5F8 /* ValidateStackSequences.swift */; };
+		ABADA3BA283D30F1001EE5F8 /* LevelOrderII.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3B9283D30F1001EE5F8 /* LevelOrderII.swift */; };
 		ABB4CF7127F83BC6005B80E9 /* IsSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4CF7027F83BC6005B80E9 /* IsSameTree.swift */; };
 		ABB4CF7327F83D6A005B80E9 /* IsSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4CF7227F83D6A005B80E9 /* IsSymmetric.swift */; };
 		ABC638CD27F84AE700439050 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC638CC27F84AE700439050 /* MaxDepth.swift */; };
@@ -145,6 +146,7 @@
 		ABADA3B3283D06F1001EE5F8 /* BuildTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildTree.swift; sourceTree = "<group>"; };
 		ABADA3B5283D2498001EE5F8 /* BuildTree.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BuildTree.png; sourceTree = "<group>"; };
 		ABADA3B7283D2A46001EE5F8 /* ValidateStackSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateStackSequences.swift; sourceTree = "<group>"; };
+		ABADA3B9283D30F1001EE5F8 /* LevelOrderII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrderII.swift; sourceTree = "<group>"; };
 		ABB4CF7027F83BC6005B80E9 /* IsSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSameTree.swift; sourceTree = "<group>"; };
 		ABB4CF7227F83D6A005B80E9 /* IsSymmetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetric.swift; sourceTree = "<group>"; };
 		ABC638CC27F84AE700439050 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
@@ -292,6 +294,7 @@
 				ABD5CAD828315C6D004CBEF2 /* IsSubStructure.swift */,
 				ABD5CADA28315E8B004CBEF2 /* MirrorTree.swift */,
 				ABD5CADC283163AE004CBEF2 /* LevelOrder.swift */,
+				ABADA3B9283D30F1001EE5F8 /* LevelOrderII.swift */,
 				ABD5CADE28316534004CBEF2 /* VerifyPostorder.swift */,
 				ABD5CAE0283165D8004CBEF2 /* Permutation.swift */,
 				ABADA3B3283D06F1001EE5F8 /* BuildTree.swift */,
@@ -471,6 +474,7 @@
 				ABD5CADF28316534004CBEF2 /* VerifyPostorder.swift in Sources */,
 				ABFF215327144FF4000AF0E7 /* ListNode.swift in Sources */,
 				ABB4CF7327F83D6A005B80E9 /* IsSymmetric.swift in Sources */,
+				ABADA3BA283D30F1001EE5F8 /* LevelOrderII.swift in Sources */,
 				ABFF2159271452B8000AF0E7 /* Easy.swift in Sources */,
 				ABD5CAD528315348004CBEF2 /* MinArray.swift in Sources */,
 				AB8023BC27F48ED300029F24 /* Merge.swift in Sources */,
