@@ -30,5 +30,6 @@ let deleteDuplicates = DeleteDuplicates()
 let myAtoi = MyAtoi()
 let countSubStrings = CountSubstrings()
 let minSubArrayLen = MinSubArrayLen()
+let longestOrderSubArr = LongestOrderSubArr()
 
 
