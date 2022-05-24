@@ -38,22 +38,28 @@
 
 import Cocoa
 
-class MyStack: NSObject {
-    private var queue = [Int]()
+class MyStack<Element> {
+    typealias Element = Element
     
-    func push(_ x: Int) {
+    private var queue = [Element]()
+    
+    func push(_ x: Element) {
         queue.append(x)
     }
     
-    func pop() -> Int {
+    func pop() -> Element {
         queue.removeFirst()
     }
     
-    func top() -> Int {
+    func top() -> Element {
         return queue.first!
     }
     
-    func empty() -> Bool {
+    func peek() -> Element {
+        return queue.last!
+    }
+    
+    func isEmpty() -> Bool {
         return queue.isEmpty
     }
 }

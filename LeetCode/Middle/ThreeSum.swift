@@ -24,7 +24,7 @@ import Cocoa
 
 class ThreeSum: NSObject {
     func threeSum(_ nums: [Int]) -> [[Int]] {
-
+        return [[0]]
     }
 
 }

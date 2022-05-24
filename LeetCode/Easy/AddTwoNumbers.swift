@@ -27,7 +27,7 @@ class AddTwoNumbers: NSObject {
         let result = cursor
         var flag = 0
         
-        while ll1?.val != nil || ll2?.val != nil || flag == 1{
+        while ll1?.val != nil || ll2?.val != nil || flag == 1 {
             let val1 = ll1?.val ?? 0
             let val2 = ll2?.val ?? 0
             var sum = val1 + val2 + flag

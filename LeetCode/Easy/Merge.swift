@@ -20,6 +20,7 @@ import Cocoa
  合并结果是 [1,2,2,3,5,6] ，其中斜体加粗标注的为 nums1 中的元素。
  https://leetcode-cn.com/problems/merge-sorted-array/
  */
+
 class Merge: NSObject {
     func merge(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         nums1 = Array(nums1.prefix(m))

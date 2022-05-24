@@ -71,4 +71,29 @@ class RemoveNthFromEnd: NSObject {
         return dummyNode.next
 
     }
+    
+    // 1 2 3 4 5
+    // 2
+    func removeNthFromEnd2(_ head: ListNode?, _ n: Int) -> ListNode? {
+
+        let length = getLength1(head)
+        let pre = ListNode(0, head)
+        var cur: ListNode? = pre
+        for _ in 0..<length-n {
+            cur = cur?.next
+        }
+        cur?.next = cur?.next?.next
+        return pre
+        
+    }
+    
+    func getLength1(_ head: ListNode?) -> Int {
+        var cur = head
+        var count: Int = 0
+        while cur != nil {
+            cur = cur!.next
+            count += 1
+        }
+        return count
+    }
 }

@@ -28,5 +28,7 @@ let addBinary = AddBinary()
 let mySqrt = MySqrt()
 let deleteDuplicates = DeleteDuplicates()
 let myAtoi = MyAtoi()
+let countSubStrings = CountSubstrings()
+let minSubArrayLen = MinSubArrayLen()
 
 
