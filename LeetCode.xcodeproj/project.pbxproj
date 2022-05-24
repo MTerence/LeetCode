@@ -212,7 +212,6 @@
 				ABF9C79827FFE91C00A7D606 /* ThreeSum.swift */,
 				ABD5CAE62831DDA2004CBEF2 /* NthUglyNumber.swift */,
 				ABADA3A9283CEB58001EE5F8 /* MinSubArrayLen.swift */,
-				ABADA3AB283CF510001EE5F8 /* LongestOrderSubArr.swift */,
 			);
 			path = Middle;
 			sourceTree = "<group>";
@@ -308,6 +307,7 @@
 		ABE52EDA282374F1003C773E /* Test */ = {
 			isa = PBXGroup;
 			children = (
+				ABADA3AB283CF510001EE5F8 /* LongestOrderSubArr.swift */,
 			);
 			path = Test;
 			sourceTree = "<group>";
