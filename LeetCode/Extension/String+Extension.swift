@@ -23,4 +23,10 @@ extension String {
         let end = self.index(startIndex, offsetBy: min(offset+Int(length), count))
         return String(self[start..<end])
     }
+    
+    func subStr(start index: Int, length: Int) -> String? {
+        guard let startIndex = self.index(self.startIndex, offsetBy: index, limitedBy: self.endIndex),
+              let endIndex = self.index(startIndex, offsetBy: length, limitedBy: self.endIndex) else { return nil }
+        return String(self[startIndex..<endIndex])
+    }
 }

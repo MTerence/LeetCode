@@ -21,41 +21,90 @@
 
 import Cocoa
 
+//extension String {
+//    func char(at index: Int) -> String {
+//        let index = self.index(self.startIndex, offsetBy: index)
+//        return String(self[index])
+//    }
+//}
+
 class LongestPalindrome: NSObject {
-    // 中心扩散法
+    override init() {
+        super.init()
+        
+        let result = longestPalindrome("babad")
+        print("\(result)")
+    }
+    
+    //中心扩散法 - 会超时
+    //https://leetcode.cn/problems/longest-palindromic-substring/solution/ren-zhe-suan-fa-chao-ji-qing-xi-yi-dong-o36ol/
     func longestPalindrome(_ s: String) -> String {
-        if s.count < 2 {
-            return s
-        }
-        var maxStrLen = 0
-        var maxSubStrStart = 0
-        for (idx, c) in s.enumerated() {
-            var left  = idx - 1
-            var right = idx + 1
-            var currentSubStrLen = 1
+        var maxSubStrLen = 0
+        var subStrStart  = 0
+        for (index, c) in s.enumerated() {
+            var left  = index - 1
+            var right = index + 1
+            var curSubStrLen = 1
             while left >= 0 && s.char(at: left) == c {
                 left -= 1
-                currentSubStrLen += 1
+                curSubStrLen += 1
             }
             
             while right < s.count && s.char(at: right) == c {
                 right += 1
-                currentSubStrLen += 1
+                curSubStrLen += 1
             }
             
-            while left >= 0 && right < s.count && s.char(at: left) == s.char(at: right) {
+            
+            while left >= 0 && right < s.count
+                    && s.char(at: left) == s.char(at: right)
+            {
                 left  -= 1
                 right += 1
-                currentSubStrLen += 2
+                curSubStrLen += 2
             }
             
-            
-            if currentSubStrLen > maxStrLen {
-                maxStrLen = currentSubStrLen
-                maxSubStrStart = left + 1
+            if curSubStrLen > maxSubStrLen {
+                maxSubStrLen = curSubStrLen
+                subStrStart = left + 1
             }
         }
         
-        return s.substr(maxSubStrStart, length: UInt(maxStrLen)) ?? ""
+        return s.subStr(start: subStrStart, length: maxSubStrLen) ?? ""
+    }
+    
+    //https://leetcode.cn/problems/longest-palindromic-substring/solution/swift-yuan-lai-yi-zhi-chao-shi-shi-yin-w-6tdi/
+    func longestPalindrome1(_ s: String) -> String {
+        if s.count < 2 { return s }
+        var start = 0
+        var end = 0
+        let array = s.map({ String.init($0)})
+        for i in 0..<s.count {
+            let len1 = expendArray(array: array, left: i, righ: i)
+            let len2 = expendArray(array: array, left: i, righ: i + 1)
+            let len = max(len1, len2)
+            
+            if len > end - start + 1 {
+                start = i - (len-1)/2
+                end   = i + len/2
+            }
+        }
+        
+        var res: String = ""
+        for index in start...end {
+            res.append(s[s.index(s.startIndex, offsetBy: index)])
+        }
+        
+        return res
+    }
+    
+    func expendArray(array: [String], left: Int, righ: Int) -> Int {
+        var l = left
+        var r = righ
+        while l >= 0 && r < array.count && array[l] == array[r] {
+            l -= 1
+            r += 1
+        }
+        return r - l - 1
     }
 }

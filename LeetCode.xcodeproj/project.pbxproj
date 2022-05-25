@@ -57,6 +57,8 @@
 		ABADA3BA283D30F1001EE5F8 /* LevelOrderII.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3B9283D30F1001EE5F8 /* LevelOrderII.swift */; };
 		ABADA3BC283D35D5001EE5F8 /* MajorityElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3BB283D35D5001EE5F8 /* MajorityElement.swift */; };
 		ABADA3BE283D3787001EE5F8 /* IsBalanced.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3BD283D3787001EE5F8 /* IsBalanced.swift */; };
+		ABADA3C0283DDCDA001EE5F8 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3BF283DDCDA001EE5F8 /* SingleNumber.swift */; };
+		ABADA3C2283DE910001EE5F8 /* MaxProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABADA3C1283DE910001EE5F8 /* MaxProduct.swift */; };
 		ABB4CF7127F83BC6005B80E9 /* IsSameTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4CF7027F83BC6005B80E9 /* IsSameTree.swift */; };
 		ABB4CF7327F83D6A005B80E9 /* IsSymmetric.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB4CF7227F83D6A005B80E9 /* IsSymmetric.swift */; };
 		ABC638CD27F84AE700439050 /* MaxDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC638CC27F84AE700439050 /* MaxDepth.swift */; };
@@ -151,6 +153,8 @@
 		ABADA3B9283D30F1001EE5F8 /* LevelOrderII.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelOrderII.swift; sourceTree = "<group>"; };
 		ABADA3BB283D35D5001EE5F8 /* MajorityElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MajorityElement.swift; sourceTree = "<group>"; };
 		ABADA3BD283D3787001EE5F8 /* IsBalanced.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsBalanced.swift; sourceTree = "<group>"; };
+		ABADA3BF283DDCDA001EE5F8 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		ABADA3C1283DE910001EE5F8 /* MaxProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProduct.swift; sourceTree = "<group>"; };
 		ABB4CF7027F83BC6005B80E9 /* IsSameTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSameTree.swift; sourceTree = "<group>"; };
 		ABB4CF7227F83D6A005B80E9 /* IsSymmetric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsSymmetric.swift; sourceTree = "<group>"; };
 		ABC638CC27F84AE700439050 /* MaxDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxDepth.swift; sourceTree = "<group>"; };
@@ -330,6 +334,8 @@
 				ABADA3B1283D05F7001EE5F8 /* ReversePrint.swift */,
 				ABADA3B7283D2A46001EE5F8 /* ValidateStackSequences.swift */,
 				ABADA3BB283D35D5001EE5F8 /* MajorityElement.swift */,
+				ABADA3BF283DDCDA001EE5F8 /* SingleNumber.swift */,
+				ABADA3C1283DE910001EE5F8 /* MaxProduct.swift */,
 			);
 			path = "剑指Offer";
 			sourceTree = "<group>";
@@ -499,6 +505,8 @@
 				AB4516F227F8615800E84715 /* ArrayQueue.swift in Sources */,
 				ABD5CAD928315C6D004CBEF2 /* IsSubStructure.swift in Sources */,
 				AB1A7C9727E9B6B700301468 /* LengthOfLongestSubstring.swift in Sources */,
+				ABADA3C0283DDCDA001EE5F8 /* SingleNumber.swift in Sources */,
+				ABADA3C2283DE910001EE5F8 /* MaxProduct.swift in Sources */,
 				AB8023C127F498C600029F24 /* InorderTraversal.swift in Sources */,
 				AB8023B827F47EBD00029F24 /* ClimbStairs.swift in Sources */,
 				AB8023B027F45BD800029F24 /* LengthOfLastWord.swift in Sources */,

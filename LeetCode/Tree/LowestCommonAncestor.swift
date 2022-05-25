@@ -27,6 +27,7 @@ import Cocoa
 
 class LowestCommonAncestor: NSObject {
     
+    //https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/solution/java-di-gui-qing-xi-hao-dong-dai-ma-8xing-by-ventu/
     func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
         if root == nil { return nil }
         if root!.val == p!.val || root!.val == q!.val { return root }

@@ -210,5 +210,10 @@ https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
  输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
  https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/
  
+### 剑指 Offer II 005. 单词长度的最大乘积
+ 给定一个字符串数组 words，请计算当两个字符串 words[i] 和 words[j] 不包含相同字符时，它们长度的乘积的最大值。假设字符串中只包含英语的小写字母。如果没有不包含相同字符的一对字符串，返回 0。
+ 注意：本题与主站 318 题相同：https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
+ https://leetcode.cn/problems/aseY1I/
+ 
 # 面试
 ### [抖音]给你一个数组，返回最长有序子数组
