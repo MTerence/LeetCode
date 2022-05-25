@@ -73,36 +73,4 @@ class MergeTwoLists: NSObject {
             return list2
         }
     }
-    
-    func mergeTwoLists2(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
-        if list1 == nil { return list2 }
-        if list2 == nil { return list1 }
-        
-        if list1!.val < list2!.val {
-            list1?.next = mergeTwoLists2(list1?.next, list2)
-            return list1
-        } else {
-            list2?.next = mergeTwoLists2(list1, list2?.next)
-            return list2
-        }
-    }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }

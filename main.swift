@@ -32,5 +32,5 @@ let countSubStrings = CountSubstrings()
 let minSubArrayLen = MinSubArrayLen()
 let longestOrderSubArr = LongestOrderSubArr()
 let longestPalindrome = LongestPalindrome()
-
+let revertArray = RevertArray()
 

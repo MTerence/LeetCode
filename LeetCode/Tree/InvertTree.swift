@@ -16,7 +16,6 @@
 import Cocoa
 
 class InvertTree: NSObject {
-    
     func invertTree(_ root: TreeNode?) -> TreeNode? {
         if root == nil { return root }
         
@@ -27,5 +26,4 @@ class InvertTree: NSObject {
         root!.right = left
         return root
     }
-
 }
