@@ -215,5 +215,14 @@ https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
  注意：本题与主站 318 题相同：https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
  https://leetcode.cn/problems/aseY1I/
  
+ ### 剑指 Offer II 009. 乘积小于 K 的子数组
+ 给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k 的连续的子数组的个数。
+ 注意：本题与主站 713 题相同：https://leetcode-cn.com/problems/subarray-product-less-than-k/
+ https://leetcode.cn/problems/ZVAVXX/
+ 
+### 剑指 Offer II 010. 和为 k 的子数组
+ 给定一个整数数组和一个整数 k ，请找到该数组中和为 k 的连续子数组的个数。
+ https://leetcode.cn/problems/QTMn0o/
+ 
 # 面试
 ### [抖音]给你一个数组，返回最长有序子数组
