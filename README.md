@@ -1,4 +1,5 @@
-# LeetCode
+# [LeetCode](https://github.com/MTerence/LeetCode)
+个人练习Leetcode算法的记录，Swift语言
 
 ## Easy
 ##### TwoSum.swift [两数之和] 给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。https://leetcode-cn.com/problems/two-sum/
@@ -147,82 +148,82 @@ https://leetcode.cn/problems/minimum-size-subarray-sum/
  
 ## 剑指 Offer
 
-### 剑指 Offer 64. 求1+2+…+n
+##### 剑指 Offer 64. 求1+2+…+n
 https://leetcode.cn/problems/qiu-12n-lcof/
 
-###  剑指 Offer 03. 数组中重复的数字找出数组中重复的数字。
+#####  剑指 Offer 03. 数组中重复的数字找出数组中重复的数字。
 https://leetcode.cn/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
  
-### 232. 用栈实现队列
+##### 232. 用栈实现队列
 请你仅使用两个栈实现先入先出队列。队列应当支持一般队列支持的所有操作（push、pop、peek、empty）：
 https://leetcode.cn/problems/implement-queue-using-stacks/
 
-### 剑指 Offer 10- II. 青蛙跳台阶问题
+##### 剑指 Offer 10- II. 青蛙跳台阶问题
 一只青蛙一次可以跳上1级台阶，也可以跳上2级台阶。求该青蛙跳上一个 n 级的台阶总共有多少种跳法。
 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
 https://leetcode.cn/problems/qing-wa-tiao-tai-jie-wen-ti-lcof/
 
-###  剑指 Offer 11. 旋转数组的最小数字
+#####  剑指 Offer 11. 旋转数组的最小数字
  把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
  https://leetcode.cn/problems/xuan-zhuan-shu-zu-de-zui-xiao-shu-zi-lcof/
  
-### 剑指 Offer 26. 树的子结构
+##### 剑指 Offer 26. 树的子结构
  输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
  B是A的子结构， 即 A中有出现和B相同的结构和节点值。
  https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
  
- ###  剑指 Offer 27. 二叉树的镜像
+ #####  剑指 Offer 27. 二叉树的镜像
  请完成一个函数，输入一个二叉树，该函数输出它的镜像。
  注意：本题与主站 226 题相同：https://leetcode-cn.com/problems/invert-binary-tree/
  https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/
  
- ### 剑指 Offer 32 - I. 从上到下打印二叉树
+ ##### 剑指 Offer 32 - I. 从上到下打印二叉树
  从上到下打印出二叉树的每个节点，同一层的节点按照从左到右的顺序打印。
  https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
  
-### 剑指 Offer 52. 两个链表的第一个公共节点
+##### 剑指 Offer 52. 两个链表的第一个公共节点
  输入两个链表，找出它们的第一个公共节点。
  https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
  
- ### 剑指 Offer 04. 二维数组中的查找
+ ##### 剑指 Offer 04. 二维数组中的查找
  在一个 n * m 的二维数组中，每一行都按照从左到右递增的顺序排序，每一列都按照从上到下递增的顺序排序。请完成一个高效的函数，输入这样的一个二维数组和一个整数，判断数组中是否含有该整数。
   https://leetcode.cn/problems/er-wei-shu-zu-zhong-de-cha-zhao-lcof/
   
-### 剑指 Offer 05. 替换空格 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+##### 剑指 Offer 05. 替换空格 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
 
-### 剑指 Offer 06. 从尾到头打印链表 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
+##### 剑指 Offer 06. 从尾到头打印链表 输入一个链表的头节点，从尾到头反过来返回每个节点的值（用数组返回）。
  https://leetcode.cn/problems/cong-wei-dao-tou-da-yin-lian-biao-lcof/
 
-###  剑指 Offer 07. 重建二叉树
+#####  剑指 Offer 07. 重建二叉树
  输入某二叉树的前序遍历和中序遍历的结果，请构建该二叉树并返回其根节点。
  假设输入的前序遍历和中序遍历的结果中都不含重复的数字。
  https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
  
-###  https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
+#####  https://leetcode.cn/problems/zhan-de-ya-ru-dan-chu-xu-lie-lcof/
  剑指 Offer 31. 栈的压入、弹出序列
  输入两个整数序列，第一个序列表示栈的压入顺序，请判断第二个序列是否为该栈的弹出顺序。假设压入栈的所有数字均不相等。例如，序列 {1,2,3,4,5} 是某栈的压栈序列，序列 {4,5,3,2,1} 是该压栈序列对应的一个弹出序列，但 {4,3,5,1,2} 就不可能是该压栈序列的弹出序列。
  
-###  https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/
+#####  https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-ii-lcof/
  剑指 Offer 32 - II. 从上到下打印二叉树 II
  从上到下按层打印二叉树，同一层的节点按从左到右的顺序打印，每一层打印到一行。
  
-### 剑指 Offer 55 - II. 平衡二叉树
+##### 剑指 Offer 55 - II. 平衡二叉树
  输入一棵二叉树的根节点，判断该树是不是平衡二叉树。如果某二叉树中任意节点的左右子树的深度相差不超过1，那么它就是一棵平衡二叉树。
  https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/
  
-### 剑指 Offer II 005. 单词长度的最大乘积
+##### 剑指 Offer II 005. 单词长度的最大乘积
  给定一个字符串数组 words，请计算当两个字符串 words[i] 和 words[j] 不包含相同字符时，它们长度的乘积的最大值。假设字符串中只包含英语的小写字母。如果没有不包含相同字符的一对字符串，返回 0。
  注意：本题与主站 318 题相同：https://leetcode-cn.com/problems/maximum-product-of-word-lengths/
  https://leetcode.cn/problems/aseY1I/
  
- ### 剑指 Offer II 009. 乘积小于 K 的子数组
+ ##### 剑指 Offer II 009. 乘积小于 K 的子数组
  给定一个正整数数组 nums和整数 k ，请找出该数组内乘积小于 k 的连续的子数组的个数。
  注意：本题与主站 713 题相同：https://leetcode-cn.com/problems/subarray-product-less-than-k/
  https://leetcode.cn/problems/ZVAVXX/
  
-### 剑指 Offer II 010. 和为 k 的子数组
+##### 剑指 Offer II 010. 和为 k 的子数组
  给定一个整数数组和一个整数 k ，请找到该数组中和为 k 的连续子数组的个数。
  https://leetcode.cn/problems/QTMn0o/
  
 # 面试
-### [抖音]给你一个数组，返回最长有序子数组
+##### [抖音]给你一个数组，返回最长有序子数组
