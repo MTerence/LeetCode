@@ -12,6 +12,28 @@ class Easy: NSObject {
         super.init()
         
         print("romanToInt = \(romanToInt("III"))")
+        
+        let str = ":LSu9f*&;23lk45"
+        let index = Array(str).firstIndex(where: {$0.isLetter})
+        let index1 = str.first(where: {$0.isLetter})
+        let array = Array(str)
+        let b = array[0..<1]
+        print("\(index!)   \(index1)")
+        
+        func writeSubStringWithSwift(_ currentLineStr: String) {
+          var strArr = Array(currentLineStr)
+          guard let firstCharactarIndex = strArr.firstIndex(where: { $0.isLetter })
+          else { return }
+          guard let nearestChartarIndex = strArr.suffix(from: firstCharactarIndex)
+          .firstIndex(where: { $0.isLetter == false })
+          else { return }
+          print("-- \(currentLineStr) \(firstCharactarIndex) -- \(nearestChartarIndex)")
+          let letterStr = String(strArr[firstCharactarIndex..<nearestChartarIndex])
+        let c = Character(letterStr)
+          print("\(letterStr)")
+        }
+        
+        writeSubStringWithSwift(str)
     }
 }
 
