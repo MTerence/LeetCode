@@ -30,3 +30,19 @@ class PostorderTraversal: NSObject {
         res.append(node!.val)
     }
 }
+
+extension PostorderTraversal {
+    func posterorderTraversal1(_ root: TreeNode?) -> [Int] {
+        guard let root = root else { return [] }
+        var res: [Int] = []
+        posterorder1(root, res: &res)
+        return res
+    }
+    
+    func posterorder1(_ treeNode: TreeNode?, res: inout [Int]) {
+        guard let treeNode = treeNode else { return }
+        posterorder1(treeNode.right, res: &res)
+        posterorder1(treeNode.left, res: &res)
+        res.append(treeNode.val)
+    }
+}

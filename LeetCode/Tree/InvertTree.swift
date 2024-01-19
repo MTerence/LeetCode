@@ -26,4 +26,13 @@ class InvertTree: NSObject {
         root!.right = left
         return root
     }
+    
+    func invertTree1(_ root: TreeNode?) -> TreeNode? {
+        guard let root = root else { return nil }
+        let left = invertTree(root.left)
+        let right = invertTree(root.right)
+        root.left = right
+        root.right = left
+        return root
+    }
 }

@@ -23,9 +23,39 @@ class RemoveDuplicates: NSObject {
         let removeDuplicates = removeDuplicates1(&input)
         print("\(removeDuplicates)")
     }
+    
+    // 通过set处理
+    func removeDuplicates0(_ nums: inout [Int]) -> Int {
+        var set: Set<Int> = Set()
+        var index = 0
+        while index < nums.count {
+            if set.contains(nums[index]) {
+                nums.remove(at: index)
+            } else {
+                set.insert(nums[index])
+                index += 1
+            }
+        }
+        return nums.count
+    }
+    
+    // 双指针法
+    func removeDuplicates(_ nums: inout [Int]) -> Int {
+        var slow = 0
+        var fast = 1
+        while fast < nums.count {
+            if nums[slow] == nums[fast] {
+                nums.remove(at: fast)
+            } else {
+                slow += 1
+                fast += 1
+            }
+        }
+        return nums.count
+    }
 
     //双指针法
-    func removeDuplicates(_ nums: inout [Int]) -> Int {
+    func removeDuplicates1(_ nums: inout [Int]) -> Int {
         if nums.count == 0 { return 0 }
         var slow = 1
         var fast = 1
@@ -42,7 +72,7 @@ class RemoveDuplicates: NSObject {
         return slow
     }
     
-    func removeDuplicates1(_ nums: inout [Int]) -> Int {
+    func removeDuplicates2(_ nums: inout [Int]) -> Int {
         if nums.count == 0 { return 0 }
         var slow = 1
         

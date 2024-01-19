@@ -58,8 +58,10 @@ class RemoveNthFromEnd: NSObject {
         var slow: ListNode? = dummyNode
         var fast: ListNode? = dummyNode
         
-        for _ in 0...n {
+        //[1,2,3,4,5]
+        for index in 0...n {
             fast = fast?.next
+            print("======index=\(index) \(fast!.val)");
         }
         
         while fast != nil {

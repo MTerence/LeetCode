@@ -46,6 +46,23 @@ class RemoveElement: NSObject {
         print("\(removeElement)")
     }
     
+    func removeElement0(_ nums: inout [Int], _ val: Int) -> Int {
+        nums = nums.filter({$0 != val})
+        return nums.count
+    }
+    
+    // 单向双指针 https://leetcode.cn/problems/remove-element/solutions/1214245/yi-chu-yuan-su-swift-by-stone_n-v8na/?envType=study-plan-v2&envId=top-interview-150
+    func removeElement2(_ nums: inout [Int], _ val: Int) -> Int {
+        var retIdx = 0
+        for index in 0..<nums.count {
+            if nums[index] != val {
+                nums[retIdx] = nums[index]
+                retIdx += 1
+            }
+        }
+        return retIdx
+    }
+    
     func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
         var idx = 0
         while idx < nums.count {
@@ -62,7 +79,7 @@ class RemoveElement: NSObject {
         return nums.count
     }
     
-    // 双指针法
+    // 双指针法 [3,2,2,3] 3
     func removeElement1(_ nums: inout [Int], _ val: Int) -> Int {
         var slow = 0
         var fast = 0
@@ -76,5 +93,4 @@ class RemoveElement: NSObject {
         }
         return slow
     }
-    
 }

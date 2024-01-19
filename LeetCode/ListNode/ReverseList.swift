@@ -27,7 +27,7 @@ import Cocoa
 class ReverseList: NSObject {
     override init() {
         super.init()
-        
+        print("~~~~~~~~~~");
         //head = [1,2,3,4,5]
         let node1 = ListNode(5)
         let node2 = ListNode(4, node1)
@@ -35,7 +35,7 @@ class ReverseList: NSObject {
         let node4 = ListNode(2, node3)
         let node5 = ListNode(1, node4)
         let reversed = reverseList(node5)
-        print("\(reversed)")
+        print("翻转列表 \(reversed!.val)")
     }
     
     // 迭代法
@@ -68,6 +68,7 @@ class ReverseList: NSObject {
         let temp = ListNode()
         var head = head
         var next: ListNode? = nil
+        //[1,2,3,4,5]
         while head != nil {
             next = head?.next
             head!.next = temp.next
@@ -79,27 +80,28 @@ class ReverseList: NSObject {
  
 }
 
-
-
-
-
-
-
-
-
-
-
 extension ReverseList {
     //迭代吗
     func reverseList3(_ head: ListNode?) -> ListNode? {
         var cur = head
         var pre: ListNode? = nil
         while cur != nil {
+            print("current \(cur!.val)");
             let next = cur?.next
             cur?.next = pre
             pre = cur
             cur = next
         }
         return pre
+    }
+    func reverseList4(_ head: ListNode?) -> ListNode? {
+        // [1,2,3,4,5]
+        if head == nil || head?.next == nil {
+            return head
+        }
+        let p = reverseList4(head?.next)
+        head?.next?.next = p
+        head?.next = nil
+        return p
     }
 }

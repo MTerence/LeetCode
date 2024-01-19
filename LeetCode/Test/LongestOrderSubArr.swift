@@ -38,3 +38,24 @@ class LongestOrderSubArr: NSObject {
         return subArr
     }
 }
+
+extension LongestOrderSubArr {
+    func longestOrderSubArr1(_ nums: [Int]) -> [Int] {
+        if nums.count <= 1 { return [] }
+        var preNum: Int = nums[0]
+        var subArr: [Int] = [preNum]
+        var window: [Int] = [preNum]
+        
+        
+        for num in nums {
+            if num == preNum + 1 {
+                window.append(num)
+            } else {
+                window.removeAll()
+            }
+            preNum = num
+            subArr = subArr.count < window.count ? window : subArr
+        }
+        return subArr
+    }
+}

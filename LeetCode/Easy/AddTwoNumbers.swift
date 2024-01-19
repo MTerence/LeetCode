@@ -11,12 +11,10 @@
  请你将两个数相加，并以相同形式返回一个表示和的链表。
  你可以假设除了数字 0 之外，这两个数都不会以 0 开头。
 
-
  示例 1：
  输入：l1 = [2,4,3], l2 = [5,6,4]
  输出：[7,0,8]
  解释：342 + 465 = 807.
-
  */
 import Cocoa
 
@@ -50,8 +48,7 @@ class AddTwoNumbers: NSObject {
     }
     
     func addTwoNumbers1(_ l1: ListNode?, _ l2: ListNode?) -> ListNode {
-        let head = ListNode(0)
-        var cur = head
+        var cur = ListNode(0)
         var l1 = l1, l2 = l2
         var carry = 0
         
@@ -66,13 +63,8 @@ class AddTwoNumbers: NSObject {
             cur.next = ListNode(value)
             cur = cur.next!
             
-            if l1?.next?.val != nil {
-                l1 = l1?.next
-            }
-            
-            if l2?.next?.val != nil {
-                l2 = l2?.next
-            }
+            l1 = l1?.next
+            l2 = l2?.next
         }
         
         if carry != 0 {
@@ -80,6 +72,33 @@ class AddTwoNumbers: NSObject {
             cur = cur.next!
         }
         
+        return cur.next!
+    }
+}
+
+extension AddTwoNumbers {
+    func addTwoNumbers2(_ l1: ListNode?, _ l2: ListNode?) -> ListNode {
+        var head = ListNode(0)
+        var cur = head
+        var carry = 0
+        var l1 = l1, l2 = l2
+        while l1 != nil || l2 != nil {
+            var value = (l1?.val ?? 0) + (l2?.val ?? 0) + carry
+            if value > 9 {
+                carry = 1
+                value -= 10
+            }
+            l1 = l1?.next
+            l2 = l2?.next
+            
+            cur.val = value
+            cur = cur.next!
+        }
+        
+        if carry > 0 {
+            cur.next = ListNode(carry)
+            cur = cur.next!
+        }
         return head.next!
     }
 }

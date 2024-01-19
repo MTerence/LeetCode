@@ -28,7 +28,7 @@ class HasCycle: NSObject {
         let hasCycleResult1 = hasCycle1(node5)
         node1.next = node3
         let hasCycleResult2 = hasCycle1(node5)
-        print("")
+        print("hasCycle: \(hasCycleResult1) \(hasCycleResult2)")
     }
     
     
@@ -36,7 +36,7 @@ class HasCycle: NSObject {
         var slow = head
         var fast = head
         
-        while slow != nil && head != nil {
+        while fast?.next?.next != nil {
             slow = slow?.next
             fast = fast?.next?.next
             
@@ -64,6 +64,4 @@ class HasCycle: NSObject {
         }
         return false
     }
-    
-
 }

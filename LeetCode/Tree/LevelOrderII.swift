@@ -59,4 +59,27 @@ class LevelOrderII: NSObject {
         return res
     }
     
+    func levelOrder1(_ root: TreeNode?) -> [[Int]] {
+        guard let root = root else { return [] }
+        var res: [[Int]] = []
+        var queue: [TreeNode] = [root]
+        while queue.count > 0 {
+            var subarray: [Int] = []
+            
+            while queue.count > 0 {
+                let node = queue.removeFirst()
+                subarray.append(node.val)
+                
+                if let left = node.left {
+                    queue.append(left)
+                }
+                if let right = node.right {
+                    queue.append(right)
+                }
+            }
+            res.append(subarray)
+        }
+        return res
+    }
+    
 }

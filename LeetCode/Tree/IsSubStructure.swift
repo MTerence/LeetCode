@@ -47,7 +47,7 @@ class IsSubStructure: NSObject {
     }
     
     func isEqual(_ A: TreeNode?, _ B: TreeNode?) -> Bool {
-        if B == nil { return true }
+        if B == nil { return false }
         if A == nil { return false }
         if A!.val != B!.val { return false }
         

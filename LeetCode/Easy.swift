@@ -29,7 +29,7 @@ class Easy: NSObject {
           else { return }
           print("-- \(currentLineStr) \(firstCharactarIndex) -- \(nearestChartarIndex)")
           let letterStr = String(strArr[firstCharactarIndex..<nearestChartarIndex])
-        let c = Character(letterStr)
+        //let c = Character(letterStr)
           print("\(letterStr)")
         }
         

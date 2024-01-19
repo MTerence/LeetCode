@@ -67,3 +67,19 @@ class InorderTraversal: NSObject {
         inorder(node?.right, &res)
     }
 }
+
+extension InorderTraversal {
+    func inorderTraversal1(_ root: TreeNode?) -> [Int] {
+        guard let root = root else { return [] }
+        var res: [Int] = []
+        inorder1(root, &res)
+        return res
+    }
+    
+    func inorder1(_ treeNode: TreeNode?, _ res: inout [Int]) {
+        guard let treeNode = treeNode else { return }
+        inorder1(treeNode.left, &res)
+        res.append(treeNode.val)
+        inorder1(treeNode.right, &res)
+    }
+}

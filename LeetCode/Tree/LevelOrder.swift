@@ -46,4 +46,22 @@ class LevelOrder: NSObject {
         }
         return res
     }
+    
+    func levelOrder1(_ root: TreeNode?) -> [Int]{
+        guard let root = root else { return [] }
+        var res: [Int] = []
+        var nodeQueue: [TreeNode] = [root]
+        while nodeQueue.count > 0 {
+            let cur = nodeQueue.first
+            if let left = cur?.left {
+                nodeQueue.append(left)
+            }
+            if let right = cur?.right {
+                nodeQueue.append(right)
+            }
+            res.append(cur!.val)
+            nodeQueue.removeFirst()
+        }
+        return res
+    }
 }

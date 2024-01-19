@@ -12,9 +12,13 @@ print("Hello, World!")
 let easy = Easy()
 let twoSum = TwoSum()
 let length = LengthOfLongestSubstring()
+
+//List
 let reverseList = ReverseList()
+let hasCycle = HasCycle()
 let mergeTwoLists = MergeTwoLists()
 let removeNthFromEnd = RemoveNthFromEnd()
+
 let middleNode = MiddleNode()
 let isPalindrome = IsPalindrome()
 let reversed = ReverseInt()

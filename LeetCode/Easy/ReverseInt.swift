@@ -10,7 +10,6 @@
  如果反转后整数超过 32 位的有符号整数的范围 [−231,  231 − 1] ，就返回 0。
  假设环境不允许存储 64 位整数（有符号或无符号）。
   
-
  示例 1：
  输入：x = 123
  输出：321
@@ -52,5 +51,19 @@ class ReverseInt: NSObject {
         }
         
         return ans
+    }
+    
+    func reverse1(_ x: inout Int) -> Int {
+        var res = 0
+        while x != 0 {
+            let lastDigital = x % 10
+            res = res * 10 + lastDigital
+            
+            if res < Int32.min || res > Int32.max {
+                return 0
+            }
+            x = x / 10
+        }
+        return res
     }
 }
