@@ -36,6 +36,7 @@ class MirrorTree: NSObject {
         if root == nil { return nil }
         let left = mirrorTree(root!.left)
         let right = mirrorTree(root!.right)
+        
         root!.left = right
         root!.right = left
         return root

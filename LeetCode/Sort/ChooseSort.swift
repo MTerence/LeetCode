@@ -14,7 +14,7 @@ class ChooseSort: NSObject {
         for (index, num) in nums.enumerated() {
             var minIndex = index
             for indexJ in index+1..<nums.count {
-                if num > nums[minIndex] {
+                if num > nums[indexJ] {
                     minIndex = indexJ
                 }
             }

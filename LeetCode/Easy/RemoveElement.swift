@@ -52,6 +52,7 @@ class RemoveElement: NSObject {
     }
     
     // 单向双指针 https://leetcode.cn/problems/remove-element/solutions/1214245/yi-chu-yuan-su-swift-by-stone_n-v8na/?envType=study-plan-v2&envId=top-interview-150
+    //nums = [3,2,2,3], val = 3
     func removeElement2(_ nums: inout [Int], _ val: Int) -> Int {
         var retIdx = 0
         for index in 0..<nums.count {

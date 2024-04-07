@@ -6,8 +6,7 @@
 //
 
 /*
- LCR 014. 字符串的排列
- 中等
+ LCR 014. 字符串的排列 中等
  给定两个字符串 s1 和 s2，写一个函数来判断 s2 是否包含 s1 的某个变位词。
  换句话说，第一个字符串的排列之一是第二个字符串的 子串 。
 
@@ -77,7 +76,6 @@ class CheckInclusion: NSObject {
     func checkInclusion(_ s1: String, _ s2: String) -> Bool {
         // 滑动窗口
         // 先计算 s1 中每个字符的出现次数
-        
         var need:[Character:Int] = [:]
         for i in s1 {
             // 默认值

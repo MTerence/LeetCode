@@ -41,17 +41,3 @@ class IsSameTree: NSObject {
         }
     }
 }
-
-extension IsSameTree {
-    func isSameTree1(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        if p == nil && q == nil {
-            return true
-        } else if (p == nil || q == nil) {
-            return false
-        } else if (p?.val != q?.val) {
-            return false
-        } else {
-            return isSameTree(p?.left, q?.left) && isSameTree(p?.right, q?.right)
-        }
-    }
-}

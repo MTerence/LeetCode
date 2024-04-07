@@ -32,6 +32,7 @@ class MergeTwoLists: NSObject {
         print("")
     }
     
+    // 迭代法
     func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         if list1 == nil { return list2 }
         if list2 == nil { return list1 }
@@ -61,6 +62,7 @@ class MergeTwoLists: NSObject {
         return pre.next
     }
     
+    // 递归法
     func mergeTwoLists1(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
         if list1 == nil { return list2 }
         if list2 == nil { return list1 }

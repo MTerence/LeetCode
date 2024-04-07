@@ -23,7 +23,7 @@ class JudgeSquareSum: NSObject {
     func judgeSquareSum(_ c: Int) -> Bool {
         var left = 0, right = Int(sqrt(Float(c)))
         // 注意这里是 <=, 否则输入2或8，输出是false，正确输出是true
-        while left < right {
+        while left <= right {
             let sum = left*left + right*right
             if sum < c {
                 left += 1

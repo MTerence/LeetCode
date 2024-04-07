@@ -81,7 +81,7 @@ class Merge: NSObject {
     // https://leetcode.cn/problems/merge-sorted-array/solutions/1397742/by-kaijiemu-6mlz/?envType=study-plan-v2&envId=top-interview-150
     func merge3(_ nums1: inout [Int], _ m: Int, _ nums2: [Int], _ n: Int) {
         var i = m - 1   // nums1的右坐标
-        var j = n - 1   // nums2的有坐标
+        var j = n - 1   // nums2的右坐标
         var cur = m + n - 1 // 从最右边开始存放数据
         while j >= 0 {
             if i >= 0 && nums1[i] > nums2[j] {

@@ -81,7 +81,7 @@ class ReverseList: NSObject {
 }
 
 extension ReverseList {
-    //迭代吗
+    //迭代法
     func reverseList3(_ head: ListNode?) -> ListNode? {
         var cur = head
         var pre: ListNode? = nil

@@ -69,7 +69,7 @@ class MiddleNode: NSObject {
         return cur
     }
     
-    
+    // 双指针法
     func middleNode2(_ head: ListNode?) -> ListNode? {
         var slow = head
         var fast = head

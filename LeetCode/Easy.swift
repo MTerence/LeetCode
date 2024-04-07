@@ -35,6 +35,9 @@ class Easy: NSObject {
         
         writeSubStringWithSwift(str)
     }
+    func test() {
+        fatalError("Must Override")
+    }
 }
 
 extension Easy {

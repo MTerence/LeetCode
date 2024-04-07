@@ -16,8 +16,10 @@
   
  限制：
  1 <= 数组长度 <= 50000
- 注意：本题与主站 169 题相同：https://leetcode-cn.com/problems/majority-element/
+ 注意：本题与主站 169 题相同：
+ https://leetcode-cn.com/problems/majority-element/
  https://leetcode.cn/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/
+ https://leetcode.cn/problems/majority-element/description/?envType=study-plan-v2&envId=top-interview-150
  */
 import Cocoa
 
@@ -26,5 +28,4 @@ class MajorityElement: NSObject {
         let sorted = nums.sorted()
         return sorted[sorted.count/2]
     }
-
 }

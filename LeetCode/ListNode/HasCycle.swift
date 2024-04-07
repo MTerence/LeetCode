@@ -31,7 +31,7 @@ class HasCycle: NSObject {
         print("hasCycle: \(hasCycleResult1) \(hasCycleResult2)")
     }
     
-    
+    // 双指针
     func hasCycle(_ head: ListNode?) -> Bool {
         var slow = head
         var fast = head
@@ -48,6 +48,7 @@ class HasCycle: NSObject {
         return false
     }
     
+    // 集合
     func hasCycle1(_ head: ListNode?) -> Bool {
         if head == nil || head?.next == nil || head?.next?.next == nil  {
             return false

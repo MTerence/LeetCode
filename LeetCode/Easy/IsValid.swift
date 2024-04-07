@@ -73,19 +73,3 @@ class IsValid: NSObject {
         return lefts.count == 0
     }
 }
-
-extension IsValid {
-    func isValid2(_ s: String) -> Bool {
-        var array: [Character] = []
-        for c in s {
-            if c == "(" || c == "{" || c == "[" {
-                array.append(c)
-            } else {
-                if c == ")" && array.removeLast() != "(" { return false }
-                if c == "}" && array.removeLast() != "{" { return false }
-                if c == "]" && array.removeLast() != "[" { return false }
-            }
-        }
-        return true
-    }
-}

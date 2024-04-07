@@ -32,12 +32,15 @@
 import Cocoa
 
 class MaxSubArray: NSObject {
+    // 动态规划
+    // dp[i] = max(dp[i-1]+nums[i],num[i])
+    // res = max(dp)
     func maxSubArray(_ nums: [Int]) -> Int {
         var pre = 0
         var res = nums[0]
         
         for num in nums {
-            pre = max(pre, num)
+            pre = max(pre + num, num)
             res = max(pre, res)
         }
         return res

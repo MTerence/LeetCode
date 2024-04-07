@@ -21,13 +21,6 @@
 
 import Cocoa
 
-//extension String {
-//    func char(at index: Int) -> String {
-//        let index = self.index(self.startIndex, offsetBy: index)
-//        return String(self[index])
-//    }
-//}
-
 class LongestPalindrome: NSObject {
     override init() {
         super.init()
@@ -38,6 +31,7 @@ class LongestPalindrome: NSObject {
     
     //中心扩散法 - 会超时
     //https://leetcode.cn/problems/longest-palindromic-substring/solution/ren-zhe-suan-fa-chao-ji-qing-xi-yi-dong-o36ol/
+    // babad
     func longestPalindrome(_ s: String) -> String {
         var maxSubStrLen = 0
         var subStrStart  = 0

@@ -56,7 +56,7 @@ class MaxProduct: NSObject {
             }
             
             if hashMap.keys.contains(set) {
-                //如果包含了这个set，那么跟新存储的最大长度
+                //如果包含了这个set，那么更新存储的最大长度
                 hashMap[set] = max(hashMap[set]!, word.count)
             } else {
                 hashMap[set] = word.count

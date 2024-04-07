@@ -36,6 +36,11 @@ import Cocoa
  https://leetcode.cn/problems/rotate-array/description/
  */
 class rotateArray: NSObject {
+    //根据题意，如果使用多余数组存储空间，会导致空间复杂度为 nnn，所以在这里，我们可以使用常量级的空间复杂度解法：数组翻转。
+    
+    // 首先对整个数组实行翻转，这样子原数组中需要翻转的子数组，就会跑到数组最前面。
+    // 这时候，从 k 处分隔数组，左右两数组，各自进行翻转即可。
+    // https://leetcode.cn/problems/rotate-array/solutions/683855/shu-zu-fan-zhuan-xuan-zhuan-shu-zu-by-de-5937/
     func rotate(_ nums: inout [Int], _ k: Int){
         let k = k % nums.count
         reverseArray(&nums, left: 0, right: nums.count - 1)
