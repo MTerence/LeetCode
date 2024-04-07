@@ -64,7 +64,7 @@ https://leetcode-cn.com/problems/contains-duplicate/
 注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
 https://leetcode-cn.com/problems/valid-anagram/
 
-## Medium
+# Medium
 ##### 5. 最长回文子串
 给你一个字符串 s，找到 s 中最长的回文子串。
 https://leetcode-cn.com/problems/longest-palindromic-substring/
@@ -104,13 +104,13 @@ https://leetcode.cn/problems/find-k-closest-elements/description/
 https://leetcode.cn/problems/ugly-number-ii/
 https://leetcode.cn/problems/chou-shu-lcof/
 
-## Hard
+# Hard
 ##### 接雨水
 https://leetcode.cn/problems/trapping-rain-water/
 
 ##### 最短循环子串
 
-## ListNode
+# ListNode
 ##### 反转链表
 https://leetcode-cn.com/problems/reverse-linked-list/
 
@@ -136,7 +136,7 @@ https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
 输入两个链表，找出它们的第一个公共节点。
 https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 
-## Tree
+# Tree
 ##### 二叉树的前序遍历
 https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
 
@@ -198,13 +198,13 @@ https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
 https://leetcode-cn.com/problems/balanced-binary-tree/
 https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/
 
-## Stack
+# Stack
 ##### 225. 用队列实现栈
 请你仅使用两个队列实现一个后入先出（LIFO）的栈，并支持普通栈的全部四种操作（push、top、pop 和 empty）。
 实现 MyStack 类：
 https://leetcode-cn.com/problems/implement-stack-using-queues/
 
-## 剑指 Offer
+# 剑指 Offer
 
 ##### 剑指 Offer II 020. 回文子字符串的个数
 给定一个字符串 s ，请计算这个字符串中有多少个回文子字符串。
