@@ -184,6 +184,60 @@ https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
 https://leetcode.cn/problems/liang-ge-lian-biao-de-di-yi-ge-gong-gong-jie-dian-lcof/
 
 ## Tree
+##### 二叉树的前序遍历
+https://leetcode-cn.com/problems/binary-tree-preorder-traversal/
+
+##### 二叉树的中序遍历
+https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+
+##### 二叉树的后序遍历
+https://leetcode-cn.com/problems/binary-tree-postorder-traversal/
+
+##### 相同的树
+https://leetcode-cn.com/problems/same-tree/
+
+##### 对称二叉树
+https://leetcode-cn.com/problems/symmetric-tree/
+
+##### 二叉树的最大深度
+https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+
+##### 二叉树的最近公共祖先
+https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+##### 二叉搜索树的最近公共祖先
+https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
+
+##### 翻转二叉树
+https://leetcode-cn.com/problems/invert-binary-tree/
+
+##### 剑指 Offer 26. 树的子结构
+https://leetcode.cn/problems/shu-de-zi-jie-gou-lcof/
+
+##### 剑指 Offer 27. 二叉树的镜像
+https://leetcode-cn.com/problems/invert-binary-tree/
+https://leetcode.cn/problems/er-cha-shu-de-jing-xiang-lcof/
+
+##### 剑指 Offer 32 - I. 从上到下打印二叉树(102. 二叉树的层序遍历)
+https://leetcode.cn/problems/cong-shang-dao-xia-da-yin-er-cha-shu-lcof/
+https://leetcode.cn/problems/binary-tree-level-order-traversal/
+
+##### 剑指 Offer 32 - II. 从上到下打印二叉树 II
+https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
+
+##### 剑指 Offer 33. 二叉搜索树的后序遍历序列 
+https://leetcode.cn/problems/er-cha-sou-suo-shu-de-hou-xu-bian-li-xu-lie-lcof/
+
+##### 剑指 Offer 38. 字符串的排列
+https://leetcode.cn/problems/zi-fu-chuan-de-pai-lie-lcof/
+
+##### 剑指 Offer 07. 重建二叉树
+https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+https://leetcode.cn/problems/zhong-jian-er-cha-shu-lcof/
+
+##### 剑指 Offer 55 - II. 平衡二叉树
+https://leetcode-cn.com/problems/balanced-binary-tree/
+https://leetcode.cn/problems/ping-heng-er-cha-shu-lcof/
 
 ## 剑指 Offer
 
