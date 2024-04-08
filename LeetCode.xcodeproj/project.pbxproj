@@ -11,6 +11,7 @@
 		7D4242322BB1A9BA003DE247 /* Stack2Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */; };
 		7DA5ECA72B8C336800160032 /* FindClosestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5ECA62B8C336800160032 /* FindClosestElements.swift */; };
 		7DB49FF52BC2C4FE008BFC55 /* MinDubSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF42BC2C4FE008BFC55 /* MinDubSubstring.swift */; };
+		7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */; };
 		7DD376972B57C03E00B6A998 /* rotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD376962B57C03E00B6A998 /* rotateArray.swift */; };
 		7DD3769A2B57C36E00B6A998 /* QuickSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD376992B57C36E00B6A998 /* QuickSort.swift */; };
 		7DD3769C2B57C90F00B6A998 /* ChooseSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD3769B2B57C90F00B6A998 /* ChooseSort.swift */; };
@@ -124,6 +125,7 @@
 		7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2Queue.swift; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB49FF42BC2C4FE008BFC55 /* MinDubSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDubSubstring.swift; sourceTree = "<group>"; };
+		7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDupSubstring.swift; sourceTree = "<group>"; };
 		7DD376962B57C03E00B6A998 /* rotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rotateArray.swift; sourceTree = "<group>"; };
 		7DD376992B57C36E00B6A998 /* QuickSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickSort.swift; sourceTree = "<group>"; };
 		7DD3769B2B57C90F00B6A998 /* ChooseSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseSort.swift; sourceTree = "<group>"; };
@@ -294,6 +296,7 @@
 			children = (
 				ABD5CAE82831F09A004CBEF2 /* Trap.swift */,
 				7DB49FF42BC2C4FE008BFC55 /* MinDubSubstring.swift */,
+				7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -549,6 +552,7 @@
 				AB6E177E27EC6C5300D42FDC /* MiddleNode.swift in Sources */,
 				AB6E177A27EC554E00D42FDC /* MergeTwoLists.swift in Sources */,
 				ABC638CD27F84AE700439050 /* MaxDepth.swift in Sources */,
+				7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */,
 				AB1A7C9327E9B56D00301468 /* Example1.swift in Sources */,
 				ABD5CAC728300140004CBEF2 /* CountSubstrings.swift in Sources */,
 				AB1A7C9227E9B56D00301468 /* Example2.swift in Sources */,
