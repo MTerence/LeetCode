@@ -4,6 +4,7 @@
 //
 //  Created by Ternence on 2021/10/11.
 //
+// https://www.nowcoder.com/exam/oj
 
 import Foundation
 
@@ -37,4 +38,5 @@ let minSubArrayLen = MinSubArrayLen()
 let longestOrderSubArr = LongestOrderSubArr()
 let longestPalindrome = LongestPalindrome()
 let revertArray = RevertArray()
+let minDupSubstring = MinDupSubstring()
 

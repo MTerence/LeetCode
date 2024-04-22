@@ -36,7 +36,7 @@ class LowestCommonAncestor: NSObject {
         let left  = lowestCommonAncestor(root!.left, p, q)
         let right = lowestCommonAncestor(root!.right, p, q)
         
-        if left != nil  && right != nil {
+        if left != nil && right != nil {
             return root
         }
         
