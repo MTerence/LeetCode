@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7D4242322BB1A9BA003DE247 /* Stack2Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */; };
+		7D7A04E12BF4EF3D00EEFB25 /* SearchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */; };
 		7DA5ECA72B8C336800160032 /* FindClosestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5ECA62B8C336800160032 /* FindClosestElements.swift */; };
 		7DB49FF52BC2C4FE008BFC55 /* MinDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */; };
 		7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */; };
@@ -120,6 +121,7 @@
 
 /* Begin PBXFileReference section */
 		7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2Queue.swift; sourceTree = "<group>"; };
+		7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsert.swift; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDupSubstring.swift; sourceTree = "<group>"; };
 		7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDupSubstring.swift; sourceTree = "<group>"; };
@@ -266,6 +268,7 @@
 				ABD5CACA283136DD004CBEF2 /* ThousandSeparator.swift */,
 				7DD376A22B59629F00B6A998 /* IsPerfectSquare.swift */,
 				7DD376AA2B5992F500B6A998 /* MaxProfit.swift */,
+				7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -579,6 +582,7 @@
 				ABADA3C0283DDCDA001EE5F8 /* SingleNumber.swift in Sources */,
 				ABADA3C2283DE910001EE5F8 /* MaxProduct.swift in Sources */,
 				AB8023C127F498C600029F24 /* InorderTraversal.swift in Sources */,
+				7D7A04E12BF4EF3D00EEFB25 /* SearchInsert.swift in Sources */,
 				AB8023B827F47EBD00029F24 /* ClimbStairs.swift in Sources */,
 				AB8023B027F45BD800029F24 /* LengthOfLastWord.swift in Sources */,
 				ABADA3BE283D3787001EE5F8 /* IsBalanced.swift in Sources */,
