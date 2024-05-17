@@ -55,10 +55,12 @@ class LowestCommonAncestorSearchTree: NSObject {
             return root
         }
         
+        //3. p和q在左侧
         if p!.val < root!.val && q!.val < root!.val {
            return lowestCommonAncestor1(root!.left, p, q)
         }
         
+        //4. p和q在右侧
         if p!.val > root!.val && q!.val > root!.val {
            return lowestCommonAncestor1(root?.right, p, q)
         }

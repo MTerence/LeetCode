@@ -42,7 +42,7 @@ class SingleNumber: NSObject {
     }
     
     //本质上是位运算
-    // 1.任何数于0异或为任何数 0 ^ n => n
+    // 1.任何数与0异或为任何数 0 ^ n => n
     // 2.相同的数异或为0: n ^ n => 0 https://leetcode.cn/problems/single-number/solutions/1324432/136-zhi-chu-xian-yi-ci-de-shu-zi-by-yzf-fopo9/
     func singleNumber1(_ nums: [Int]) -> Int {
          var result = 0

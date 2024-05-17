@@ -52,18 +52,4 @@ class ReverseInt: NSObject {
         
         return ans
     }
-    
-    func reverse1(_ x: inout Int) -> Int {
-        var res = 0
-        while x != 0 {
-            let lastDigital = x % 10
-            res = res * 10 + lastDigital
-            
-            if res < Int32.min || res > Int32.max {
-                return 0
-            }
-            x = x / 10
-        }
-        return res
-    }
 }

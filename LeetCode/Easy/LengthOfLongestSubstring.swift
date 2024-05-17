@@ -37,6 +37,8 @@ class LengthOfLongestSubstring: NSObject {
         print("\(lengthOfLongestSubstring("abcabcbb"))")
     }
     
+    //abcabcbb
+    //abcadc
     func lengthOfLongestSubstring(_ s: String) -> Int {
         if s.count == 0 { return 0 }
         var string: String = ""
@@ -72,24 +74,6 @@ class LengthOfLongestSubstring: NSObject {
             }
         }
         
-        return maxStr.count
-    }
-}
-
-extension LengthOfLongestSubstring {
-    //"abcabcbb"
-    func lengthOfLongestSubstring2(_ s: String) -> Int {
-        var currentStr = ""
-        var maxStr = ""
-        for c in s {
-            while currentStr.contains(c) {
-                currentStr.removeFirst()
-            }
-            currentStr.append(c)
-            if currentStr.count > maxStr.count {
-                maxStr = currentStr
-            }
-        }
         return maxStr.count
     }
 }

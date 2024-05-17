@@ -75,30 +75,3 @@ class AddTwoNumbers: NSObject {
         return cur.next!
     }
 }
-
-extension AddTwoNumbers {
-    func addTwoNumbers2(_ l1: ListNode?, _ l2: ListNode?) -> ListNode {
-        var head = ListNode(0)
-        var cur = head
-        var carry = 0
-        var l1 = l1, l2 = l2
-        while l1 != nil || l2 != nil {
-            var value = (l1?.val ?? 0) + (l2?.val ?? 0) + carry
-            if value > 9 {
-                carry = 1
-                value -= 10
-            }
-            l1 = l1?.next
-            l2 = l2?.next
-            
-            cur.val = value
-            cur = cur.next!
-        }
-        
-        if carry > 0 {
-            cur.next = ListNode(carry)
-            cur = cur.next!
-        }
-        return head.next!
-    }
-}

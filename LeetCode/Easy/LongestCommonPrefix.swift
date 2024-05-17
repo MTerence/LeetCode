@@ -102,19 +102,3 @@ class LongestCommonPrefix: NSObject {
         return longestTwoPrefix(leftLcp, rightLcp)
     }
 }
-
-extension LongestCommonPrefix {
-    func longestCommentPrefix(_ strs: [String]) -> String {
-        let sortedArray = strs.sorted()
-        let first = sortedArray.first
-        let last = sortedArray.last
-        var result = ""
-        for (index, c) in (first ?? "").enumerated() {
-            if (last ?? "").char(at: index) != c {
-                return result
-            }
-            result.append(c)
-        }
-        return result
-    }
-}

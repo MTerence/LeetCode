@@ -61,7 +61,6 @@ class IsPalindrome: NSObject {
             right -= 1
         }
         
-        
         return true
     }
     

@@ -28,12 +28,12 @@ class PreorderTraversal: NSObject {
             let curr = stack.pop()
             res.append(curr!.val)
             
-            if curr?.right != nil {
-                let _ = stack.push(curr!.right!)
-            }
-            
             if curr?.left != nil {
                 let _ = stack.push(curr!.left!)
+            }
+            
+            if curr?.right != nil {
+                let _ = stack.push(curr!.right!)
             }
         }
         return res
