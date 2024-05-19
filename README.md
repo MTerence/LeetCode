@@ -177,6 +177,10 @@ https://leetcode-cn.com/problems/invert-binary-tree/
  给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 平衡 二叉搜索树。
 https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/description/
 
+##### 111. 二叉树的最小深度
+给定一个二叉树，找出其最小深度。
+https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/
+
 ##### 剑指 Offer 26. 树的子结构
 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
 B是A的子结构， 即 A中有出现和B相同的结构和节点值。
