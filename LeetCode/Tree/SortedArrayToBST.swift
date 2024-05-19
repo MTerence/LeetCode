@@ -50,7 +50,7 @@ class SortedArrayToBST: NSObject {
             return nil
         }
         // 总是选择中间位置左边的数字做为根结点
-        var middle = (left + right)/2
+        let middle = (left + right)/2
         let root = TreeNode(nums[middle])
         // 分割数组左边，递归生成左分支
         root.left = sortedToBST(nums, left, middle - 1)
@@ -66,7 +66,7 @@ class SortedArrayToBST: NSObject {
         }
         
         // 总是选择中间位置右边的数字做为根结点
-        var middle = (left + right + 1) / 2
+        let middle = (left + right + 1) / 2
         let root = TreeNode(nums[middle])
         
         root.left = sortedToBST1(nums, left, middle - 1)
@@ -81,7 +81,7 @@ class SortedArrayToBST: NSObject {
         }
         
         // 选择任意一个中间位置做为根结点
-        var middle = (left + right + Int.random(in: 0..<2)) / 2
+        let middle = (left + right + Int.random(in: 0..<2)) / 2
         let root = TreeNode(nums[middle])
         
         root.left = sortedToBST2(nums, left, middle-1)
