@@ -173,6 +173,10 @@ https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/
 ##### 翻转二叉树
 https://leetcode-cn.com/problems/invert-binary-tree/
 
+##### 108. 将有序数组转换为二叉搜索树
+ 给你一个整数数组 nums ，其中元素已经按 升序 排列，请你将其转换为一棵 平衡 二叉搜索树。
+https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/description/
+
 ##### 剑指 Offer 26. 树的子结构
 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
 B是A的子结构， 即 A中有出现和B相同的结构和节点值。
