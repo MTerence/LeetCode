@@ -15,6 +15,8 @@
 		7D7A05AD2BF9E70A00EEFB25 /* RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05AC2BF9E70A00EEFB25 /* RemoveElements.swift */; };
 		7D7A05AF2BFA09DA00EEFB25 /* IsHappy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05AE2BFA09DA00EEFB25 /* IsHappy.swift */; };
 		7D7A05B12BFA0FDF00EEFB25 /* CountNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05B02BFA0FDF00EEFB25 /* CountNodes.swift */; };
+		7D7A05B32BFA16BE00EEFB25 /* BinaryTreePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05B22BFA16BE00EEFB25 /* BinaryTreePaths.swift */; };
+		7D7A05B52BFA184300EEFB25 /* IsPowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05B42BFA184300EEFB25 /* IsPowerOfThree.swift */; };
 		7DA5ECA72B8C336800160032 /* FindClosestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5ECA62B8C336800160032 /* FindClosestElements.swift */; };
 		7DB49FF52BC2C4FE008BFC55 /* MinDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */; };
 		7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */; };
@@ -134,6 +136,8 @@
 		7D7A05AC2BF9E70A00EEFB25 /* RemoveElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElements.swift; sourceTree = "<group>"; };
 		7D7A05AE2BFA09DA00EEFB25 /* IsHappy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsHappy.swift; sourceTree = "<group>"; };
 		7D7A05B02BFA0FDF00EEFB25 /* CountNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNodes.swift; sourceTree = "<group>"; };
+		7D7A05B22BFA16BE00EEFB25 /* BinaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePaths.swift; sourceTree = "<group>"; };
+		7D7A05B42BFA184300EEFB25 /* IsPowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPowerOfThree.swift; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDupSubstring.swift; sourceTree = "<group>"; };
 		7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDupSubstring.swift; sourceTree = "<group>"; };
@@ -282,6 +286,7 @@
 				7DD376AA2B5992F500B6A998 /* MaxProfit.swift */,
 				7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */,
 				7D7A05AE2BFA09DA00EEFB25 /* IsHappy.swift */,
+				7D7A05B42BFA184300EEFB25 /* IsPowerOfThree.swift */,
 			);
 			path = Easy;
 			sourceTree = "<group>";
@@ -383,6 +388,7 @@
 				7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */,
 				7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */,
 				7D7A05B02BFA0FDF00EEFB25 /* CountNodes.swift */,
+				7D7A05B22BFA16BE00EEFB25 /* BinaryTreePaths.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -555,6 +561,7 @@
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
 				AB2C6DD6283E5C6F00A3814A /* RevertArray.swift in Sources */,
 				ABCB446227F5574200A04396 /* ArrayStack.swift in Sources */,
+				7D7A05B32BFA16BE00EEFB25 /* BinaryTreePaths.swift in Sources */,
 				AB4516EF27F85A0C00E84715 /* ContainsDuplicate.swift in Sources */,
 				ABD5CAE32831D30A004CBEF2 /* GetIntersectionNode.swift in Sources */,
 				AB5EEC3827FED81400D954B6 /* LongestPalindrome.swift in Sources */,
@@ -574,6 +581,7 @@
 				ABD5CAC728300140004CBEF2 /* CountSubstrings.swift in Sources */,
 				AB1A7C9227E9B56D00301468 /* Example2.swift in Sources */,
 				ABFF214C271439BB000AF0E7 /* main.swift in Sources */,
+				7D7A05B52BFA184300EEFB25 /* IsPowerOfThree.swift in Sources */,
 				7DD376AB2B5992F500B6A998 /* MaxProfit.swift in Sources */,
 				AB1A7C8C27E985F800301468 /* AddTwoNumbers.swift in Sources */,
 				AB320F5A27F16A30000746A7 /* LongestCommonPrefix.swift in Sources */,

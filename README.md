@@ -71,6 +71,10 @@ https://leetcode-cn.com/problems/contains-duplicate/
 注意：若 s 和 t 中每个字符出现的次数都相同，则称 s 和 t 互为字母异位词。
 https://leetcode-cn.com/problems/valid-anagram/
 
+##### 326. 3 的幂
+ 给定一个整数，写一个函数来判断它是否是 3 的幂次方。如果是，返回 true ；否则，返回 false 。
+ https://leetcode.cn/problems/power-of-three/description/
+
 # Medium
 ##### 5. 最长回文子串
 给你一个字符串 s，找到 s 中最长的回文子串。
