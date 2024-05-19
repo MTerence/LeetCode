@@ -196,6 +196,11 @@ https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/
 给你一棵 完全二叉树 的根节点 root ，求出该树的节点个数。
 https://leetcode.cn/problems/count-complete-tree-nodes/
 
+#####  257. 二叉树的所有路径
+ 给你一个二叉树的根节点 root ，按 任意顺序 ，返回所有从根节点到叶子节点的路径。
+ 叶子节点 是指没有子节点的节点。
+ https://leetcode.cn/problems/binary-tree-paths/description/
+
 ##### 112. 路径总和
  给你二叉树的根节点 root 和一个表示目标和的整数 targetSum 。判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和 targetSum 。如果存在，返回 true ；否则，返回 false 。
  https://leetcode.cn/problems/path-sum/description/
