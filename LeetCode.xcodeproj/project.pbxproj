@@ -12,6 +12,7 @@
 		7D7A05A72BF7781C00EEFB25 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */; };
 		7D7A05A92BF9B1E200EEFB25 /* MinDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */; };
 		7D7A05AB2BF9B4F400EEFB25 /* HasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */; };
+		7D7A05AD2BF9E70A00EEFB25 /* RemoveElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05AC2BF9E70A00EEFB25 /* RemoveElements.swift */; };
 		7DA5ECA72B8C336800160032 /* FindClosestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5ECA62B8C336800160032 /* FindClosestElements.swift */; };
 		7DB49FF52BC2C4FE008BFC55 /* MinDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */; };
 		7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */; };
@@ -128,6 +129,7 @@
 		7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 		7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDepth.swift; sourceTree = "<group>"; };
 		7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasPathSum.swift; sourceTree = "<group>"; };
+		7D7A05AC2BF9E70A00EEFB25 /* RemoveElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElements.swift; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDupSubstring.swift; sourceTree = "<group>"; };
 		7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDupSubstring.swift; sourceTree = "<group>"; };
@@ -318,6 +320,7 @@
 				ABD5CACC28313DF6004CBEF2 /* DetectCycle.swift */,
 				ABD5CAD628315690004CBEF2 /* DeleteNode.swift */,
 				ABD5CAE22831D30A004CBEF2 /* GetIntersectionNode.swift */,
+				7D7A05AC2BF9E70A00EEFB25 /* RemoveElements.swift */,
 			);
 			path = ListNode;
 			sourceTree = "<group>";
@@ -541,6 +544,7 @@
 				AB6C157A27F73B9E0075D733 /* PostorderTraversal.swift in Sources */,
 				ABD5CADD283163AE004CBEF2 /* LevelOrder.swift in Sources */,
 				AB320F5727F15921000746A7 /* IsValid.swift in Sources */,
+				7D7A05AD2BF9E70A00EEFB25 /* RemoveElements.swift in Sources */,
 				AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */,
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
 				AB2C6DD6283E5C6F00A3814A /* RevertArray.swift in Sources */,
