@@ -11,6 +11,7 @@
 		7D7A04E12BF4EF3D00EEFB25 /* SearchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */; };
 		7D7A05A72BF7781C00EEFB25 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */; };
 		7D7A05A92BF9B1E200EEFB25 /* MinDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */; };
+		7D7A05AB2BF9B4F400EEFB25 /* HasPathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */; };
 		7DA5ECA72B8C336800160032 /* FindClosestElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA5ECA62B8C336800160032 /* FindClosestElements.swift */; };
 		7DB49FF52BC2C4FE008BFC55 /* MinDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */; };
 		7DB49FF72BC36F5D008BFC55 /* LongestDupSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */; };
@@ -126,6 +127,7 @@
 		7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsert.swift; sourceTree = "<group>"; };
 		7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 		7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDepth.swift; sourceTree = "<group>"; };
+		7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HasPathSum.swift; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDupSubstring.swift; sourceTree = "<group>"; };
 		7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestDupSubstring.swift; sourceTree = "<group>"; };
@@ -371,6 +373,7 @@
 				ABADA3BD283D3787001EE5F8 /* IsBalanced.swift */,
 				7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */,
 				7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */,
+				7D7A05AA2BF9B4F400EEFB25 /* HasPathSum.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -551,6 +554,7 @@
 				AB1A7C9527E9B57800301468 /* List.swift in Sources */,
 				AB8023BA27F483D700029F24 /* DeleteDuplicates.swift in Sources */,
 				ABD5CAD128314C44004CBEF2 /* MyQueue.swift in Sources */,
+				7D7A05AB2BF9B4F400EEFB25 /* HasPathSum.swift in Sources */,
 				AB18FB6527F8676E00C507CD /* MyStack.swift in Sources */,
 				AB6E177E27EC6C5300D42FDC /* MiddleNode.swift in Sources */,
 				AB6E177A27EC554E00D42FDC /* MergeTwoLists.swift in Sources */,

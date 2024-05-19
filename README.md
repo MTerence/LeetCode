@@ -181,6 +181,10 @@ https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/descript
 给定一个二叉树，找出其最小深度。
 https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/
 
+##### 112. 路径总和
+ 给你二叉树的根节点 root 和一个表示目标和的整数 targetSum 。判断该树中是否存在 根节点到叶子节点 的路径，这条路径上所有节点值相加等于目标和 targetSum 。如果存在，返回 true ；否则，返回 false 。
+ https://leetcode.cn/problems/path-sum/description/
+
 ##### 剑指 Offer 26. 树的子结构
 输入两棵二叉树A和B，判断B是不是A的子结构。(约定空树不是任意一个树的子结构)
 B是A的子结构， 即 A中有出现和B相同的结构和节点值。
