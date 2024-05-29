@@ -45,7 +45,7 @@ class QuickSort: NSObject {
         if left.count == 0 && right.count == 0 {
             return left + middle + right
         } else {
-            return quickSort1(left) + quickSort1(middle) + quickSort1(right)
+            return quickSort1(left) + middle + quickSort1(right)
         }
     }
     
