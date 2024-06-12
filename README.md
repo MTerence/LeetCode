@@ -88,6 +88,16 @@ https://leetcode-cn.com/problems/string-to-integer-atoi/
 给你一个包含 n 个整数的数组 nums，判断 nums 中是否存在三个元素 a，b，c ，使得 a + b + c = 0 ？请你找出所有和为 0 且不重复的三元组。
 https://leetcode-cn.com/problems/3sum/
 
+#####  22. 括号生成 中等
+ 数字 n 代表生成括号的对数，请你设计一个函数，用于能够生成所有可能的并且 有效的 括号组合。
+ 示例 1：
+ 输入：n = 3
+ 输出：["((()))","(()())","(())()","()(())","()()()"]
+ 示例 2：
+ 输入：n = 1
+ 输出：["()"]
+ https://leetcode.cn/problems/generate-parentheses/
+
 ##### 1556. 千位分隔数
 给你一个整数 n，请你每隔三位添加点（即 "." 符号）作为千位分隔符，并将结果以字符串格式返回。
 https://leetcode.cn/problems/thousand-separator/
@@ -191,6 +201,12 @@ https://leetcode.cn/problems/convert-sorted-array-to-binary-search-tree/descript
 ##### 111. 二叉树的最小深度
 给定一个二叉树，找出其最小深度。
 https://leetcode.cn/problems/minimum-depth-of-binary-tree/description/
+
+##### 114. 二叉树展开为链表
+ 给你二叉树的根结点 root ，请你将它展开为一个单链表：
+ 展开后的单链表应该同样使用 TreeNode ，其中 right 子指针指向链表中下一个结点，而左子指针始终为 null 。
+ 展开后的单链表应该与二叉树 先序遍历 顺序相同。
+ https://leetcode.cn/problems/flatten-binary-tree-to-linked-list/description/
 
 #####  222. 完全二叉树的节点个数
 给你一棵 完全二叉树 的根节点 root ，求出该树的节点个数。
