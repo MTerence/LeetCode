@@ -62,5 +62,4 @@ class MaxProduct: NSObject {
         }
         return res
     }
-
 }

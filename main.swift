@@ -40,3 +40,5 @@ let longestPalindrome = LongestPalindrome()
 let revertArray = RevertArray()
 let minDupSubstring = MinDupSubstring()
 
+let test = Test()
+

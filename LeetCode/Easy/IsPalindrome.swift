@@ -85,34 +85,3 @@ class IsPalindrome: NSObject {
     }
 
 }
-
-extension IsPalindrome {
-    //121
-    func isPalindrome4(_ x: Int) -> Bool {
-        let str = String.init(x)
-        return str == String(str.reversed())
-    }
-    
-    func isPalindrome5(_ x: Int) -> Bool {
-        var string = String(x)
-        while string.count != 0 {
-            if string.removeFirst() != string.removeLast() {
-                return false
-            }
-        }
-        return true
-    }
-    func isPalindrome6(_ x: Int) -> Bool {
-        var string = String(x)
-        var left = 0
-        var right = string.count - 1
-        while left < right {
-            if string.char(at: left) != string.char(at: right) {
-                return false
-            }
-            left += 1
-            right -= 1
-        }
-        return true
-    }
-}

@@ -24,8 +24,6 @@ class HasCycle: NSObject {
         let node4 = ListNode(4, node3)
         let node5 = ListNode(5, node4)
         
-        
-        
         let hasCycleResult1 = hasCycle1(node5)
         node1.next = node3
         let hasCycleResult2 = hasCycle1(node5)

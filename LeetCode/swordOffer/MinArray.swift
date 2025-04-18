@@ -28,7 +28,7 @@ class MinArray: NSObject {
         var left = 0
         var right = numbers.count - 1
         while left < right {
-            let middle = left + (right - left) / 2
+            let middle = (right - left) / 2
             if numbers[middle] < numbers[right] {
                 right = middle
             } else if numbers[middle] > numbers[right] {

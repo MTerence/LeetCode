@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D2A8AAC2DA67BE6006EB29D /* ZigzagLevelOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D2A8AAB2DA67BE6006EB29D /* ZigzagLevelOrder.swift */; };
 		7D4242322BB1A9BA003DE247 /* Stack2Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */; };
+		7D67EC562D9C1DE200757FD6 /* ReverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D67EC552D9C1DE200757FD6 /* ReverseKGroup.swift */; };
 		7D7A04E12BF4EF3D00EEFB25 /* SearchInsert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */; };
 		7D7A05A72BF7781C00EEFB25 /* SortedArrayToBST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */; };
 		7D7A05A92BF9B1E200EEFB25 /* MinDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */; };
@@ -32,6 +34,7 @@
 		7DD376A72B598D7600B6A998 /* RemoveDuplicates1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD376A62B598D7600B6A998 /* RemoveDuplicates1.swift */; };
 		7DD376AB2B5992F500B6A998 /* MaxProfit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD376AA2B5992F500B6A998 /* MaxProfit.swift */; };
 		7DD376AD2B59963700B6A998 /* MaxProfit1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD376AC2B59963700B6A998 /* MaxProfit1.swift */; };
+		7DD9C4772D6EFB01009B0A39 /* Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD9C4762D6EFB01009B0A39 /* Test.swift */; };
 		AB0733D527F9A8DE00DBCB27 /* LowestCommonAncestor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */; };
 		AB0733D727F9AAFC00DBCB27 /* InvertTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D627F9AAFC00DBCB27 /* InvertTree.swift */; };
 		AB0733D927F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0733D827F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift */; };
@@ -131,7 +134,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		7D0734C22D7D8F69003F02DA /* iShot_2024-05-08_14.14.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2024-05-08_14.14.49.png"; sourceTree = "<group>"; };
+		7D0734C32D7D8F69003F02DA /* iShot_2025-02-24_15.00.04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2025-02-24_15.00.04.png"; sourceTree = "<group>"; };
+		7D0734C42D7D8F69003F02DA /* iShot_2024-04-23_18.07.32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2024-04-23_18.07.32.png"; sourceTree = "<group>"; };
+		7D0734C52D7D8F69003F02DA /* iShot_2024-04-23_18.07.41.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2024-04-23_18.07.41.png"; sourceTree = "<group>"; };
+		7D0734C62D7D8F69003F02DA /* 有序数组中查找与x值最接近的k个数.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "有序数组中查找与x值最接近的k个数.png"; sourceTree = "<group>"; };
+		7D0734C72D7D8F69003F02DA /* iShot_2025-03-03_14.14.15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2025-03-03_14.14.15.png"; sourceTree = "<group>"; };
+		7D0734C82D7D8F69003F02DA /* iShot_2024-04-17_19.55.33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2024-04-17_19.55.33.png"; sourceTree = "<group>"; };
+		7D0734C92D7D8F69003F02DA /* iShot_2024-04-23_18.07.19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iShot_2024-04-23_18.07.19.png"; sourceTree = "<group>"; };
+		7D2A8AAB2DA67BE6006EB29D /* ZigzagLevelOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagLevelOrder.swift; sourceTree = "<group>"; };
 		7D4242312BB1A9BA003DE247 /* Stack2Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack2Queue.swift; sourceTree = "<group>"; };
+		7D67EC552D9C1DE200757FD6 /* ReverseKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKGroup.swift; sourceTree = "<group>"; };
 		7D7A04E02BF4EF3D00EEFB25 /* SearchInsert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInsert.swift; sourceTree = "<group>"; };
 		7D7A05A62BF7781C00EEFB25 /* SortedArrayToBST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortedArrayToBST.swift; sourceTree = "<group>"; };
 		7D7A05A82BF9B1E200EEFB25 /* MinDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinDepth.swift; sourceTree = "<group>"; };
@@ -141,6 +154,7 @@
 		7D7A05B02BFA0FDF00EEFB25 /* CountNodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountNodes.swift; sourceTree = "<group>"; };
 		7D7A05B22BFA16BE00EEFB25 /* BinaryTreePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTreePaths.swift; sourceTree = "<group>"; };
 		7D7A05B42BFA184300EEFB25 /* IsPowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsPowerOfThree.swift; sourceTree = "<group>"; };
+		7D81A4452DB22B4000FA2BF0 /* 多线程打印.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "多线程打印.png"; sourceTree = "<group>"; };
 		7DA5ECA62B8C336800160032 /* FindClosestElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindClosestElements.swift; sourceTree = "<group>"; };
 		7DB347942C0AED69009AE1CC /* GenerateParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateParenthesis.swift; sourceTree = "<group>"; };
 		7DB347962C0AEEA8009AE1CC /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
@@ -157,6 +171,7 @@
 		7DD376A62B598D7600B6A998 /* RemoveDuplicates1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates1.swift; sourceTree = "<group>"; };
 		7DD376AA2B5992F500B6A998 /* MaxProfit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit.swift; sourceTree = "<group>"; };
 		7DD376AC2B59963700B6A998 /* MaxProfit1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxProfit1.swift; sourceTree = "<group>"; };
+		7DD9C4762D6EFB01009B0A39 /* Test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test.swift; sourceTree = "<group>"; };
 		AB0733D427F9A8DE00DBCB27 /* LowestCommonAncestor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestor.swift; sourceTree = "<group>"; };
 		AB0733D627F9AAFC00DBCB27 /* InvertTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvertTree.swift; sourceTree = "<group>"; };
 		AB0733D827F9AC2200DBCB27 /* LowestCommonAncestorSearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LowestCommonAncestorSearchTree.swift; sourceTree = "<group>"; };
@@ -323,6 +338,7 @@
 				ABD5CAE82831F09A004CBEF2 /* Trap.swift */,
 				7DB49FF42BC2C4FE008BFC55 /* MinDupSubstring.swift */,
 				7DB49FF62BC36F5D008BFC55 /* LongestDupSubstring.swift */,
+				7D67EC552D9C1DE200757FD6 /* ReverseKGroup.swift */,
 			);
 			path = Hard;
 			sourceTree = "<group>";
@@ -399,6 +415,7 @@
 				7D7A05B02BFA0FDF00EEFB25 /* CountNodes.swift */,
 				7D7A05B22BFA16BE00EEFB25 /* BinaryTreePaths.swift */,
 				7DB347B92C103DC9009AE1CC /* Fatten.swift */,
+				7D2A8AAB2DA67BE6006EB29D /* ZigzagLevelOrder.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -408,6 +425,15 @@
 			children = (
 				ABADA3B5283D2498001EE5F8 /* BuildTree.png */,
 				7DB347BB2C103EDB009AE1CC /* Flatten.png */,
+				7D81A4452DB22B4000FA2BF0 /* 多线程打印.png */,
+				7D0734C62D7D8F69003F02DA /* 有序数组中查找与x值最接近的k个数.png */,
+				7D0734C82D7D8F69003F02DA /* iShot_2024-04-17_19.55.33.png */,
+				7D0734C92D7D8F69003F02DA /* iShot_2024-04-23_18.07.19.png */,
+				7D0734C42D7D8F69003F02DA /* iShot_2024-04-23_18.07.32.png */,
+				7D0734C52D7D8F69003F02DA /* iShot_2024-04-23_18.07.41.png */,
+				7D0734C22D7D8F69003F02DA /* iShot_2024-05-08_14.14.49.png */,
+				7D0734C32D7D8F69003F02DA /* iShot_2025-02-24_15.00.04.png */,
+				7D0734C72D7D8F69003F02DA /* iShot_2025-03-03_14.14.15.png */,
 			);
 			path = Bundle;
 			sourceTree = "<group>";
@@ -484,6 +510,7 @@
 				AB1A7C9127E9B56D00301468 /* Example1.swift */,
 				AB1A7C9027E9B56D00301468 /* Example2.swift */,
 				ABFF2158271452B8000AF0E7 /* Easy.swift */,
+				7DD9C4762D6EFB01009B0A39 /* Test.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -519,6 +546,7 @@
 				TargetAttributes = {
 					ABFF2147271439BB000AF0E7 = {
 						CreatedOnToolsVersion = 12.5;
+						LastSwiftMigration = 1500;
 					};
 				};
 			};
@@ -572,6 +600,7 @@
 				AB8023B427F4669D00029F24 /* AddBinary.swift in Sources */,
 				AB1A7C8927E980E600301468 /* TwoSum.swift in Sources */,
 				AB2C6DD6283E5C6F00A3814A /* RevertArray.swift in Sources */,
+				7DD9C4772D6EFB01009B0A39 /* Test.swift in Sources */,
 				ABCB446227F5574200A04396 /* ArrayStack.swift in Sources */,
 				7D7A05B32BFA16BE00EEFB25 /* BinaryTreePaths.swift in Sources */,
 				AB4516EF27F85A0C00E84715 /* ContainsDuplicate.swift in Sources */,
@@ -641,6 +670,8 @@
 				7DB49FF52BC2C4FE008BFC55 /* MinDupSubstring.swift in Sources */,
 				ABADA3C6283E00A9001EE5F8 /* FindLength.swift in Sources */,
 				AB8023B227F45FDD00029F24 /* PlusOne.swift in Sources */,
+				7D2A8AAC2DA67BE6006EB29D /* ZigzagLevelOrder.swift in Sources */,
+				7D67EC562D9C1DE200757FD6 /* ReverseKGroup.swift in Sources */,
 				AB2C6DD8283E5E6500A3814A /* ReverseTree.swift in Sources */,
 				ABD5CAE92831F09A004CBEF2 /* Trap.swift in Sources */,
 				7D7A05AF2BFA09DA00EEFB25 /* IsHappy.swift in Sources */,
@@ -778,10 +809,12 @@
 		ABFF2150271439BB000AF0E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWB985PQRH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -789,6 +822,7 @@
 		ABFF2151271439BB000AF0E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZWB985PQRH;
 				ENABLE_HARDENED_RUNTIME = YES;

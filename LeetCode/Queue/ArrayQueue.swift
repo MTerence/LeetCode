@@ -6,7 +6,10 @@
 //
 
 import Cocoa
-
+/**
+ 栈先入后出
+ 队列先入先出
+ */
 class ArrayQueue: NSObject {
     private var array = [Int]()
     

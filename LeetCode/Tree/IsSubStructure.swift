@@ -12,14 +12,13 @@
  
  例如:
  给定的树 A:
-
       3
      / \
     4   5
    / \
   1   2
  给定的树 B：
-
+ 
     4
    /
   1
@@ -48,8 +47,8 @@ class IsSubStructure: NSObject {
     
     // 判断两棵树是否相同
     func isEqual(_ A: TreeNode?, _ B: TreeNode?) -> Bool {
-        if B == nil { return false }
         if A == nil { return false }
+        if B == nil { return false }
         if A!.val != B!.val { return false }
         
         return isEqual(A!.left, B!.left) && isEqual(A!.right, B!.right)

@@ -19,7 +19,7 @@ class LongestOrderSubArr: NSObject {
     }
     
     func longestOrderSubArr(_ nums:[Int]) -> [Int] {
-        if nums.count == 1 || nums.count == 1 { return nums }
+        if nums.count == 0 || nums.count == 1 { return nums }
         
         var preNum: Int = nums[0]
         var subArr: [Int] = [preNum]
@@ -31,27 +31,6 @@ class LongestOrderSubArr: NSObject {
             } else {
                 window.removeAll()
                 window.append(num)
-            }
-            preNum = num
-            subArr = subArr.count < window.count ? window : subArr
-        }
-        return subArr
-    }
-}
-
-extension LongestOrderSubArr {
-    func longestOrderSubArr1(_ nums: [Int]) -> [Int] {
-        if nums.count <= 1 { return [] }
-        var preNum: Int = nums[0]
-        var subArr: [Int] = [preNum]
-        var window: [Int] = [preNum]
-        
-        
-        for num in nums {
-            if num == preNum + 1 {
-                window.append(num)
-            } else {
-                window.removeAll()
             }
             preNum = num
             subArr = subArr.count < window.count ? window : subArr
